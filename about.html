@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<nav class="navbar navbar-inverse navbar-toggleable-md fixed-top">
+
+
+    <div class="Navigat"> <a class="navbar-brand" href="#">
+    <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/logo.png" class="xlargeLogo" id="Logo"></a>  
+<a class="nav-link" href="/about.html">About</a>
+          <a class="nav-link" href="#">Art</a>
+          <a class="nav-link" href="#">Clients</a>
+                <a class="nav-link" href="#">Shop</a>
+    </div>
+</nav>
+
+
+<div class="content">
+  <p> Coming Soon!</p>
+	</div>
+
+<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+var Logo = document.getElementById("Logo");
+function growShrinkLogo() {
+var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+   if( scroll <= 5){
+    //if scrolled less than 5
+    Logo.className = 'xlargeLogo';
+  }   
+  else if (scroll > 5)
+  if ( scroll < 10){
+    Logo.className = 'largeLogo';
+}
+  else if (scroll > 10)
+  if ( scroll < 15){
+    Logo.className = 'medLogo';
+}
+    else if (scroll > 15)
+  if ( scroll < 20){
+    Logo.className = 'smallLogo';
+}
+  else if( scroll > 20){ //if scrolled more than 20
+    Logo.className = 'xsmallLogo';
+  }
+ 
+}
+</script>
 </body>
 </html>
