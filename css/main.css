@@ -63,11 +63,11 @@ body{
   //padding-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 20%;
+  margin-top: 50px;
 //width: 80%;
     font-family: arial;
   color: #000;
- // text-align: center;
+ text-align: left;
   font-size: 12pt;
   font-weight: 300;
 }
