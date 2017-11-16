@@ -58,6 +58,9 @@ body{
 
 
 @media screen and (max-width: 480px) {
+  a.nav-link:hover{
+  color: blue;
+}
     navbar navbar-inverse navbar-toggleable-md fixed-top {
         width: 100% !important;
       background: red;
