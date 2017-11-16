@@ -57,8 +57,8 @@ body{
 }
 
 
-textPage{
-width: 80%;
+.textPage{
+//width: 80%;
   float: center;
     font-family: arial;
   color: #000;
