@@ -1,7 +1,119 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+nav{
+  position:fixed;
+  top:0;
+  margin: 1%;
+}
+#Logo{
+  transition: all 0.3s;
+   //  vertical-align: text-bottom;
+}
+.xlargeLogo{width: 200px;}
+.largeLogo{width: 180px;}
+.medLogo{width: 160px;}
+.smallLogo{width: 140px;}
+.xsmallLogo{width: 120px;}
+
+.content {
+  padding-top: 30px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.nav-link{
+  font-family: arial;
+  color: #000;
+  text-decoration: none;
+  font-size: 12pt;
+  padding-left: 5px;
+    padding-right: 5px;
+  font-weight: 300;
+}
+
+a.nav-link:hover{
+  color: pink;
+}
+
+.Navigat{
+  width: 500;
+ margin-left: 5px;
+ vertical align: text-bottom;
+
+}
+
+navbar-brand{
+ overflow: hidden;
+    vertical align: text-bottom;
+}
+
+navbar{
+ overflow: hidden;
+  vertical align: text-bottom;
+  width: auto;
+  display: inline;
+}
+
+body{
+  margin: 0;
+}
+
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<nav class="navbar navbar-inverse navbar-toggleable-md fixed-top">
+
+
+    <div class="Navigat"> <a class="navbar-brand" href="#">
+    <img src="http://d2f0ora2gkri0g.cloudfront.net/4d/f0/4df091ad-5ddd-4a15-a6e7-1dd0424f521b.png" class="xlargeLogo" id="Logo"></a>  
+<a class="nav-link" href="#home">About</a>
+          <a class="nav-link" href="#">Art</a>
+          <a class="nav-link" href="#">Clients</a>
+                <a class="nav-link" href="#">Shop</a>
+    </div>
+</nav>
+
+
+<div class="content">
+  <img src="http://d2f0ora2gkri0g.cloudfront.net/6f/73/6f734d7c-bebb-4661-87ec-cf1d5aded61c.png" alt="" style="width: 100%;">
+  <img src="http://d2f0ora2gkri0g.cloudfront.net/6f/73/6f734d7c-bebb-4661-87ec-cf1d5aded61c.png" alt="" style="width: 100%;">
+  <img src="http://d2f0ora2gkri0g.cloudfront.net/6f/73/6f734d7c-bebb-4661-87ec-cf1d5aded61c.png" alt="" style="width: 100%;">
+</div>
+
+<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+
+var Logo = document.getElementById("Logo");
+
+function growShrinkLogo() {
+var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+   if( scroll <= 5){
+    //if scrolled less than 5
+    Logo.className = 'xlargeLogo';
+  }   
+  else if (scroll > 5)
+  if ( scroll < 10){
+    Logo.className = 'largeLogo';
+}
+  else if (scroll > 10)
+  if ( scroll < 15){
+    Logo.className = 'medLogo';
+}
+    else if (scroll > 15)
+  if ( scroll < 20){
+    Logo.className = 'smallLogo';
+}
+  else if( scroll > 20){ //if scrolled more than 20
+    Logo.className = 'xsmallLogo';
+  }
+ 
+}
+
+</script>
 </body>
 </html>
