@@ -108,9 +108,11 @@ height: 600px;
     .nav-link {
         padding-left: 2.5px;
         padding-right: 2.5px;
-
 	}
-	img#Logo{
+img#Logo{
 	scale: 0.9;	
+	}
+nav{
+	margin: 0px;
 	}
 }
