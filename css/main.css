@@ -74,8 +74,7 @@ body{
 #Logo{
   }
 }
-
- .slideshowBW {
+div.scrollmenu {
     background-color: #fff;
     overflow: auto;
     white-space: nowrap;
