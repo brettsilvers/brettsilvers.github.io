@@ -129,10 +129,10 @@ td, th {
 
 @media screen and (max-width: 480px) {
 	.Navigat{
-	margin-top: 2.5px;
+	margin-top: 5px;
 	}
 	.slideshowBay{
-	margin-top: 25px !important;
+	margin-top: 35px !important;
 }
     .nav-link {
         padding-left: 2.5px;
