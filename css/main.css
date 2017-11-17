@@ -24,8 +24,10 @@ nav{
   color: #000;
   text-decoration: none;
   font-size: 12pt;
-  padding-left: 5px;
-    padding-right: 5px;
+//  padding-left: 5px;
+  //  padding-right: 5px;
+	  padding-left: 1%;
+    padding-right: 1%;
   font-weight: 300;
 }
 
@@ -35,7 +37,7 @@ a.nav-link:hover{
 
 .Navigat{
   //width: 500;
- margin-left: 5px;
+ margin-left: 1%;
  vertical align: text-bottom;
 
 }
@@ -79,7 +81,8 @@ div.scrollmenu {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-	margin-top: 65px;
+	margin-top: 10%;
+//	margin-top: 65px;
 
 }
 
