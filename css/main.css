@@ -33,8 +33,7 @@ a.nav-link:hover{
   color: pink;
 }
 
-.Navigat,
-.slideshowBW{
+.Navigat{
   //width: 500;
  margin-left: 5px;
  vertical align: text-bottom;
@@ -92,7 +91,8 @@ height: 480px;
 	white-space: nowrap;
 }
 
- img.slideImg,{
+ img.slideImg,
+.slideshowBW{
       height: 480px !important;
           padding: 0;
     margin: 0;
