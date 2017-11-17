@@ -82,7 +82,7 @@ container {
 height: 600px;
     padding: 0;
     margin: 0;
-	overflow-x: auto;
+//overflow-x: auto;
 	white-space: nowrap;
 }
 
