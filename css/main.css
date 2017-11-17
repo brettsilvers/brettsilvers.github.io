@@ -105,7 +105,7 @@ height: 600px;
 
 
 .slideshowBay{
-	margin-top: 65px;
+	//margin-top: 0px;
 }
 
 @media screen and (max-width: 480px) {
