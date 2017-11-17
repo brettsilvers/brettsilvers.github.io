@@ -113,14 +113,14 @@ height: 600px;
         padding-right: 2.5px;
 	}
 img#Logo, #Logo{
-	width: 120px;	
+	//width: 120px;	
 	}
 	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top,
 	{
 	margin-left: 0px !important;
 	margin-right: 0px !important;
 	margin-bottom: 0px !important;
-		margin-top: 2.5px !important;
+	margin-top: 2.5px !important;
 	}
 	 img.slideImg,
 .slideshowBW,
