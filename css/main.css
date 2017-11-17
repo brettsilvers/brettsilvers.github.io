@@ -91,7 +91,8 @@ container {
 		padding: 0;
 	}
   
- img.slideImg{
+ img.slideImg,
+slideshowBW{
       height: 480px !important;
 }
   }
