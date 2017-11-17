@@ -112,7 +112,8 @@ height: 600px;
 img#Logo, #Logo{
 	width: 120px;	
 	}
-nav{
+nav,
+	navbar navbar-inverse navbar-toggleable-md fixed-top{
 	margin: 0px !important;
 	}
 }
