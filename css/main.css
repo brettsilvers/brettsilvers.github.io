@@ -34,7 +34,7 @@ a.nav-link:hover{
 }
 
 .Navigat{
-  width: 500;
+  //width: 500;
  margin-left: 5px;
  vertical align: text-bottom;
 
@@ -68,3 +68,9 @@ body{
   font-weight: 300;
 }
 
+@media screen and (max-width: 480px) {
+  
+.Navigat{
+  width: 100% !important;
+  }
+}
