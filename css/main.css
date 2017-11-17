@@ -164,7 +164,7 @@ max-width: 75%;
 }
 @media screen and (max-width: 480px) {
 	.textPage{
-		margin-top: 40px !important;
+		margin-top: 50px !important;
 	}
 	.Navigat{
 	margin-top: 5px;
