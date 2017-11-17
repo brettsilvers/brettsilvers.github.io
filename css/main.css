@@ -105,6 +105,9 @@ height: 600px;
 
 
 @media screen and (max-width: 480px) {
+	.slideshowBay{
+	margin-top: 55px;
+}
 	.Navigat{
 	margin-top: 2.5px;
 	}
