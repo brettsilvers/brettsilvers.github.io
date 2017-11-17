@@ -35,6 +35,14 @@ a.nav-link:hover{
   color: pink;
 }
 
+a.nav-link:active{
+  color: pink;
+}
+
+a.nav-link:hover:active{
+  color: #000;
+}
+
 .Navigat{
   //width: 500;
  margin-left: 5px;
