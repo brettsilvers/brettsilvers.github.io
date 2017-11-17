@@ -109,7 +109,7 @@ height: 600px;
 	margin-top: 2.5px;
 	}
 	.slideshowBay{
-	margin-top: 25px;
+	margin-top: 25px !important;
 }
     .nav-link {
         padding-left: 2.5px;
@@ -131,6 +131,7 @@ img#Logo, #Logo{
       height: 300px !important;
 	}
 }
+
 .slideshowBay{
 	margin-top: 65px;
 }
