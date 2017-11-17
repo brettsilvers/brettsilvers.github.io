@@ -128,7 +128,7 @@ td, th {
 }
 
 .clientLogo{
-max-width: 33.333%;	
+max-width: 75%;	
 }
 
 @media screen and (max-width: 480px) {
