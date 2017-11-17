@@ -121,7 +121,8 @@ height: 600px;
 table {
    // font-family: arial, sans-serif;
     border-collapse: collapse;
-    max-width: 900px;
+    max-width: 900px !important;
+	width: 100%;
 	margin: 0 auto 0;
 	 vertical align: middle;
 
