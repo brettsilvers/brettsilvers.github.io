@@ -81,7 +81,7 @@ div.scrollmenu {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-	margin-top: 65px;
+	margin-top: 0px;
 
 }
 
@@ -105,6 +105,9 @@ height: 600px;
 
 
 @media screen and (max-width: 480px) {
+	.slideshowBay{
+	margin-top: 25px;
+}
     .nav-link {
         padding-left: 2.5px;
         padding-right: 2.5px;
@@ -117,7 +120,6 @@ img#Logo, #Logo{
 	margin-left: 0px !important;
 	margin-right: 0px !important;
 	margin-bottom: 0px !important;
-
 		margin-top: 2.5px !important;
 	}
 	 img.slideImg,
@@ -126,4 +128,7 @@ img#Logo, #Logo{
 	container{
       height: 300px !important;
 	}
+}
+.slideshowBay{
+	margin-top: 65px;
 }
