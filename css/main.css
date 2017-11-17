@@ -75,7 +75,7 @@ body{
   }
 }
 
-div.scrollmenu {
+ .slideshowBW {
     background-color: #fff;
     overflow: auto;
     white-space: nowrap;
@@ -92,8 +92,7 @@ height: 480px;
 	white-space: nowrap;
 }
 
- img.slideImg,
- slideshowBW{
+ img.slideImg,{
       height: 480px !important;
           padding: 0;
     margin: 0;
