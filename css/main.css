@@ -113,7 +113,7 @@ height: 600px;
 table {
    // font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    max-width: 80%;
 	margin: 0 auto 0;
 	 vertical align: middle;
 
