@@ -76,7 +76,7 @@ body{
 }
 
 div.scrollmenu {
-    background-color: #000;
+    background-color: #fff;
     overflow: auto;
     white-space: nowrap;
     padding: 0;
