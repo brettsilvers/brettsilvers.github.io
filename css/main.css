@@ -113,7 +113,8 @@ img#Logo, #Logo{
 	width: 120px;	
 	}
 nav,
-	navbar navbar-inverse navbar-toggleable-md fixed-top{
+	navbar navbar-inverse navbar-toggleable-md fixed-top,
+	.nav{
 	margin: 0px !important;
 	}
 }
