@@ -117,4 +117,10 @@ nav,
 	.nav{
 	margin: 0px !important;
 	}
+	 img.slideImg,
+.slideshowBW,
+.scrollmenu,
+	container{
+      height: 300px !important;
+	}
 }
