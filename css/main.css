@@ -109,10 +109,10 @@ height: 600px;
         padding-left: 2.5px;
         padding-right: 2.5px;
 	}
-img#Logo{
-	scale: 0.9;	
+img#Logo, #Logo{
+	width: 120px;	
 	}
 nav{
-	margin: 0px;
+	margin: 0px !important;
 	}
 }
