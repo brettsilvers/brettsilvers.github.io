@@ -114,8 +114,11 @@ img#Logo, #Logo{
 	}
 	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top,
 	{
-	margin: 0px !important;
-		margin-top: 2.5px
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+
+		margin-top: 2.5px !important;
 	}
 	 img.slideImg,
 .slideshowBW,
