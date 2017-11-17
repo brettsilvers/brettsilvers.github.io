@@ -62,8 +62,8 @@ body{
 .textPage{
   margin-left: 5%;
   margin-right: 5%;
-  padding-top: 100px;
-	margin-bottom: 2.5%;
+//  margin-top: 100px;
+margin-bottom: 75px;
   font-family: Lato;
   color: #000;
  text-align: center;
@@ -148,10 +148,14 @@ h1{
 .clientLogo{
 max-width: 75%;	
 }
-
+@media screen and (min-width: 481px) {
+	.textPage{
+		margin-top: 100px !important;
+	}
+}
 @media screen and (max-width: 480px) {
 	.textPage{
-		padding-top: 45px !important;
+		margin-top: 45px !important;
 	}
 	.Navigat{
 	margin-top: 5px;
