@@ -102,3 +102,15 @@ height: 600px;
     margin: 0;
 	//overflow-x: auto;
 }
+
+
+@media screen and (max-width: 480px) {
+    .nav-link {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+
+	}
+	img#Logo{
+	scale: 0.9;	
+	}
+}
