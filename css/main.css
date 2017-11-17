@@ -127,6 +127,10 @@ td, th {
 
 }
 
+.clientLogo{
+max-width: 33.333%;	
+}
+
 @media screen and (max-width: 480px) {
 	.Navigat{
 	margin-top: 5px;
