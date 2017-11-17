@@ -89,7 +89,7 @@ container {
 height: 480px;
     padding: 0;
     margin: 0;
-	overflow-x: auto;
+	//overflow-x: auto;
 	white-space: nowrap;
 }
 
@@ -99,5 +99,5 @@ height: 480px;
       height: 480px !important;
           padding: 0;
     margin: 0;
-     // overflow: x-auto;
+	//overflow-x: auto;
 }
