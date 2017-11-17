@@ -79,7 +79,7 @@ div.scrollmenu {
 
 
 container {
-height: 480px;
+height: 600px;
     padding: 0;
     margin: 0;
 	overflow-x: auto;
@@ -89,7 +89,7 @@ height: 480px;
  img.slideImg,
 .slideshowBW,
 .scrollmenu{
-      height: 480px !important;
+      height: 600px !important;
           padding: 0;
     margin: 0;
 	//overflow-x: auto;
