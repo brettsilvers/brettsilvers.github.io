@@ -114,6 +114,8 @@ table {
     border-collapse: collapse;
     width: 100%;
 	margin: 0 auto 0;
+	 vertical align: middle;
+
 }
 
 td, th {
@@ -121,6 +123,8 @@ td, th {
     text-align: center;
     padding: 0px;
     width: 33.333%;
+		 vertical align: middle;
+
 }
 
 @media screen and (max-width: 480px) {
