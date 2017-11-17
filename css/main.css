@@ -108,6 +108,20 @@ height: 600px;
 	//margin-top: 0px;
 }
 
+
+table {
+   // font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    text-align: center;
+    padding: 0px;
+    width: 33.333%;
+}
+
 @media screen and (max-width: 480px) {
 	.Navigat{
 	margin-top: 2.5px;
