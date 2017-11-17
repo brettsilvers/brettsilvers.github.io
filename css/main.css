@@ -33,7 +33,8 @@ a.nav-link:hover{
   color: pink;
 }
 
-.Navigat{
+.Navigat,
+.slideshowBW{
   //width: 500;
  margin-left: 5px;
  vertical align: text-bottom;
