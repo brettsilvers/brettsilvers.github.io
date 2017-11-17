@@ -62,7 +62,7 @@ body{
 .textPage{
   margin-left: 5%;
   margin-right: 5%;
-//  margin-top: 100px;
+  padding-top: 100px;
 	margin-bottom: 2.5%;
   font-family: Lato;
   color: #000;
@@ -151,13 +151,13 @@ max-width: 75%;
 
 @media screen and (max-width: 480px) {
 	.textPage{
-		margin-top: 35px !important;
+		padding-top: 45px !important;
 	}
 	.Navigat{
 	margin-top: 5px;
 	}
 	.slideshowBay{
-	margin-top: 55px !important;
+	margin-top: 45px !important;
 }
     .nav-link {
         padding-left: 2.5px;
