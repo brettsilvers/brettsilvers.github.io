@@ -193,3 +193,13 @@ img#Logo, #Logo{
 	}
 }
 
+
+#gearbox {
+    display: block;
+    justify-content: space-between;
+}
+#leftgear, #rightgear {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
