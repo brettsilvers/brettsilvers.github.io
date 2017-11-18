@@ -200,7 +200,7 @@ img#Logo, #Logo{
 }
 #leftgear, #rightgear {
   //  width: 90%;
-    max-width: 90%;
+    max-width: 100%;
 	margin: 0 auto 0;
 	width: auto;
     height: auto;
