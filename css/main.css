@@ -196,10 +196,10 @@ img#Logo, #Logo{
 
 #gearbox {
     display: block;
-    justify-content: space-between;
+    justify-content: space-between;overflow: hidden;
 }
 #leftgear, #rightgear {
-  //  width: 100%;
+    width: 90%;
     max-width: 90%;
     height: auto;
 	z-index: 10;
