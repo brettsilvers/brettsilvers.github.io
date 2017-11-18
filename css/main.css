@@ -157,14 +157,18 @@ h1{
 .clientLogo{
 max-width: 75%;	
 }
+
 @media screen and (min-width: 481px) {
 	.textPage{
 		margin-top: 100px !important;
 	}
 }
 @media screen and (max-width: 480px) {
+	#gearbox{
+		margin-top: 35px !important;
+	}
 	.textPage{
-		margin-top: 45px !important;
+		margin-top: 50px !important;
 	}
 	.Navigat{
 	margin-top: 5px;
@@ -196,7 +200,8 @@ img#Logo, #Logo{
 
 #gearbox {
     display: block;
-    justify-content: space-between;overflow: hidden;
+    justify-content: space-between;
+	overflow: hidden;
 }
 #leftgear, #rightgear {
   //  width: 90%;
