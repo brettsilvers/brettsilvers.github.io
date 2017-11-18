@@ -199,8 +199,9 @@ img#Logo, #Logo{
     justify-content: space-between;overflow: hidden;
 }
 #leftgear, #rightgear {
-    width: 90%;
-    max-width: 90%;
+  //  width: 90%;
+   // max-width: 90%;
+	width: auto;
     height: auto;
 	z-index: 10;
 }
