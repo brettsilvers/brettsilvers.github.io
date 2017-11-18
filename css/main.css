@@ -213,6 +213,7 @@ img#Logo, #Logo{
 
 #gearbox {
     display: block;
+	float: center;
     justify-content: space-between;
 	overflow: hidden;
 }
