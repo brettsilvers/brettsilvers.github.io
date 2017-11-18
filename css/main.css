@@ -164,9 +164,9 @@ max-width: 75%;
 	}
 }
 @media screen and (max-width: 480px) {
-	//#gearbox{
-	//	margin-top: 35px !important;
-	//}
+	#gearbox{
+		margin-top: 35px !important;
+	}
 	.textPage{
 		margin-top: 50px !important;
 	}
