@@ -202,4 +202,5 @@ img#Logo, #Logo{
     width: 100vw;
     max-width: 100%;
     height: auto;
+	z-index: 10;
 }
