@@ -192,10 +192,10 @@ img#Logo, #Logo{
 	//width: 90%;
 	}
 	.xlargeLogo{width: 120px !important;}
-.largeLogo{width: 117.5px !important;}
-.medLogo{width: 115px !important;}
-.smallLogo{width: 112.5px !important;}
-.xsmallLogo{width: 110px !important;}
+.largeLogo{width: 115px !important;}
+.medLogo{width: 110px !important;}
+.smallLogo{width: 105px !important;}
+.xsmallLogo{width: 100px !important;}
 	nav,
 	.nav,
 	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top
