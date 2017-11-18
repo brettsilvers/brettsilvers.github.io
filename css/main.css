@@ -43,6 +43,10 @@ a.nav-link:hover:active{
   color: #000;
 }
 
+a{
+text-decoration: none;
+}
+
 .Navigat{
   //width: 500;
  margin-left: 5px;
