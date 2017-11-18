@@ -203,7 +203,7 @@ img#Logo, #Logo{
     justify-content: space-between;
 	overflow: hidden;
 }
-#leftgear, #rightgear {
+#leftgear, #rightgear, #thirdgear {
   //  width: 90%;
     max-width: 100%;
 	margin: 0 auto 0;
