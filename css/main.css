@@ -189,13 +189,13 @@ max-width: 75%;
 	}
 img#Logo, #Logo{
 	//width: 120px;
-	width: 90%;
+	//width: 90%;
 	}
-	.xlargeLogo{width: 120;}
-.largeLogo{width: 117.5px;}
-.medLogo{width: 115px;}
-.smallLogo{width: 112.5px;}
-.xsmallLogo{width: 110px;}
+	.xlargeLogo{width: 120px !important;}
+.largeLogo{width: 117.5px !important;}
+.medLogo{width: 115px !important;}
+.smallLogo{width: 112.5px !important;}
+.xsmallLogo{width: 110px !important;}
 	nav,
 	.nav,
 	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top
