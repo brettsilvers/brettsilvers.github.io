@@ -35,11 +35,11 @@ a.nav-link:hover{
   color: pink;
 }
 
-a.nav-link:active{
+a.nav-link-active{
   color: pink;
 }
 
-a.nav-link:hover:active{
+a.nav-link-active:hover{
   color: #000;
 }
 
