@@ -38,6 +38,11 @@
 
 
 <div class="content">
+	<div id="gearbox">
+    <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/newspread-v2.png" alt id="leftgear">
+    <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/hoopgirl-7-2.png" alt id="rightgear">
+</div>
+	<br>
   <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/newspread-v2.png" alt="" style="width: 100%;">
   <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/hoopgirl-7.png" alt="" style="width: 100%;">
   <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/manges-v3.png" alt="" style="width: 100%;">
@@ -77,5 +82,15 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
 }
 
 </script>
+	
+	<script>
+	var leftgear = document.getElementById("leftgear"),
+rightgear = document.getElementById("rightgear");
+    
+window.addEventListener("scroll", function() {
+    leftgear.style.transform = "rotate("+window.pageYOffset+"deg)";
+    rightgear.style.transform = "rotate(-"+window.pageYOffset+"deg)";
+});
+	</script>
 </body>
 </html>
