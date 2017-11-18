@@ -188,7 +188,8 @@ max-width: 75%;
         padding-right: 2.5px;
 	}
 img#Logo, #Logo{
-	//width: 120px;	
+	//width: 120px;
+	width: 90%;
 	}
 	.xlargeLogo{width: 120;}
 .largeLogo{width: 117.5px;}
