@@ -213,8 +213,6 @@ img#Logo, #Logo{
 
 #gearbox {
     display: block;
-	float: center;
-	text-align: center;
     justify-content: space-between;
 	overflow: hidden;
 }
@@ -223,8 +221,6 @@ img#Logo, #Logo{
     max-width: 100%;
 	margin: 0 auto 0;
 	width: auto;
-		text-align: center;
-		float: center;
     height: auto;
 	z-index: 10;
 }
