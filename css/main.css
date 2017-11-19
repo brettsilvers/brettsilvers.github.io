@@ -183,7 +183,8 @@ max-width: 75%;
 	.slideshowBay{
 	margin-top: 35px !important;
 }
-    .nav-link {
+    .nav-link,
+	.nav-link-active{
         padding-left: 2.5px;
         padding-right: 2.5px;
 	}
