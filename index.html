@@ -55,21 +55,37 @@ var Logo = document.getElementById("Logo");
 
 function growShrinkLogo() {
 var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-   if( scroll <= 5){
+   if( scroll <= 2.5){
     //if scrolled less than 5
     Logo.className = 'logo1';
   }   
+	    else if (scroll > 2.5)
+  if ( scroll < 5){
+    Logo.className = 'logo2';
+}
   else if (scroll > 5)
-  if ( scroll < 10){
+  if ( scroll < 7.5){
     Logo.className = 'logo3';
 }
+	    else if (scroll > 7.5)
+  if ( scroll < 10){
+    Logo.className = 'logo4';
+}
   else if (scroll > 10)
-  if ( scroll < 15){
+  if ( scroll < 12.5){
     Logo.className = 'logo5';
 }
+	    else if (scroll > 12.5)
+  if ( scroll < 15){
+    Logo.className = 'logo6';
+}
     else if (scroll > 15)
-  if ( scroll < 20){
+  if ( scroll < 17.5){
     Logo.className = 'logo7';
+}
+	    else if (scroll > 17.5)
+  if ( scroll < 20){
+    Logo.className = 'logo8';
 }
   else if( scroll > 20){ //if scrolled more than 20
     Logo.className = 'logo9';
