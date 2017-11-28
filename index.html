@@ -57,22 +57,22 @@ function growShrinkLogo() {
 var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
    if( scroll <= 5){
     //if scrolled less than 5
-    Logo.className = 'xlargeLogo';
+    Logo.className = 'logo1';
   }   
   else if (scroll > 5)
   if ( scroll < 10){
-    Logo.className = 'largeLogo';
+    Logo.className = 'logo3';
 }
   else if (scroll > 10)
   if ( scroll < 15){
-    Logo.className = 'medLogo';
+    Logo.className = 'logo5';
 }
     else if (scroll > 15)
   if ( scroll < 20){
-    Logo.className = 'smallLogo';
+    Logo.className = 'logo7';
 }
   else if( scroll > 20){ //if scrolled more than 20
-    Logo.className = 'xsmallLogo';
+    Logo.className = 'logo9';
   }
  
 }
