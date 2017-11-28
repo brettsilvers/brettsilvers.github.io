@@ -8,11 +8,15 @@ z-index: 9999999;
   transition: all 0.3s;
    //  vertical-align: text-bottom;
 }
-.xlargeLogo{width: 200px;}
-.largeLogo{width: 180px;}
-.medLogo{width: 160px;}
-.smallLogo{width: 140px;}
-.xsmallLogo{width: 120px;}
+.logo1{width: 200px;}
+.logo2{width: 190px;}
+.logo3{width: 180px;}
+.logo4{width: 170px;}
+.logo5{width: 160px;}
+.logo6{width: 150px;}
+.logo7{width: 140px;}
+.logo8{width: 130px;}
+.logo9{width: 120px;}
 
 .content {
   padding-top: 0px;
@@ -192,11 +196,11 @@ img#Logo, #Logo{
 	//width: 120px;
 	//width: 90%;
 	}
-	.xlargeLogo{width: 120px !important;}
-.largeLogo{width: 115px !important;}
-.medLogo{width: 110px !important;}
-.smallLogo{width: 105px !important;}
-.xsmallLogo{width: 100px !important;}
+	.logo1{width: 120px !important;}
+.logo3{width: 115px !important;}
+.logo5{width: 110px !important;}
+.logo7{width: 105px !important;}
+.logo9{width: 100px !important;}
 	nav,
 	.nav,
 	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top
