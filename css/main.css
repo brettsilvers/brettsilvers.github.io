@@ -23,6 +23,8 @@ z-index: 9999999;
   padding-top: 0px;
   max-width: 100%;
   width: 100%;
+	   position:relative;
+
 }
 
 .nav-link,
