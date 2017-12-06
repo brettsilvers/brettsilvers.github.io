@@ -234,7 +234,7 @@ img#Logo, #Logo{
 position: absolute;
 	   height:50px;   /* Height of the footer */
 	bottom: 50;
-	margin-bottom: 50px;
+//	margin-bottom: 50px;
 text-align: center;
  font-family: Lato;
   color: #000;
