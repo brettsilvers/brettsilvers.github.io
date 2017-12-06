@@ -19,6 +19,7 @@ z-index: 9999999;
 .logo9{width: 120px;}
 
 .content {
+ min-height:100%;
   padding-top: 0px;
   max-width: 100%;
   width: 100%;
@@ -81,13 +82,14 @@ body{
 .textPage{
   margin-left: 5%;
   margin-right: 5%;
-//  margin-top: 100px;
 margin-bottom: 75px;
   font-family: Lato;
   color: #000;
  text-align: center;
   font-size: 12pt;
   font-weight: 300;
+	   padding-bottom:125px;   /* Height of the footer */
+
 }
 
 
@@ -227,7 +229,8 @@ img#Logo, #Logo{
 
 
 .footer{
-//position: absolute;
+position: absolute;
+	   height:125px;   /* Height of the footer */
 	bottom: 50;
 	margin-bottom: 50px;
 text-align: center;
