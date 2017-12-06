@@ -233,3 +233,17 @@ img#Logo, #Logo{
     height: auto;
 	z-index: 10;
 }
+
+
+.footer{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+ font-family: Lato;
+  color: #000;
+ text-align: center;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+}
