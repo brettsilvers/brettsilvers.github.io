@@ -237,8 +237,8 @@ img#Logo, #Logo{
 
 .footer{
 //position: absolute;
-	bottom: 0;
-	margin-bottom: 50;
+	bottom: 50;
+	margin-bottom: 50px;
 text-align: center;
  font-family: Lato;
   color: #000;
