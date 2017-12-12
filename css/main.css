@@ -171,6 +171,11 @@ max-width: 75%;
 	}
 }
 @media screen and (max-width: 480px) {
+	
+.footer{
+	margin-bottom: 25px;
+	margin-top: 5px;
+	}
 	#gearbox{
 		margin-top: 25px !important;
 	}
@@ -229,9 +234,6 @@ img#Logo, #Logo{
 
 
 .footer{
-//position: absolute;
-//	   height:50px;   /* Height of the footer */
-	//bottom: 50;
 	margin-bottom: 50px;
 text-align: center;
  font-family: Lato;
