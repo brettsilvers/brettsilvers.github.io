@@ -198,7 +198,20 @@ h1{
 	font-size: 10pt;
 	font-weight: 300;
 }
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#containerShort {
+   min-height:100%;
+   position:relative;
+}
 
+#bodyShort {
+   padding-bottom:50px;
+}
 #footerShort {
    position:absolute;
    bottom:0;
