@@ -201,7 +201,8 @@ h1{
 
 
 .footerShort{
-	position: absolute;
+	position: fixed;
+	bottom: 0
 	//margin-bottom: 50px;
 	text-align: center;
 	font-family: Lato;
