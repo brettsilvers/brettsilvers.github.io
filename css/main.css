@@ -1,13 +1,12 @@
 nav{
-  position:fixed;
-  top:0;
-  margin: 15px;
-z-index: 9999999;
+	position:fixed;
+	top:0;
+	margin: 15px;
+	z-index: 9999999;
 }
-#Logo{
-  transition: all 0.3s;
-   //  vertical-align: text-bottom;
-}
+
+#Logo{transition: all 0.3s;}
+
 .logo1{width: 200px;}
 .logo2{width: 190px;}
 .logo3{width: 180px;}
@@ -19,226 +18,180 @@ z-index: 9999999;
 .logo9{width: 120px;}
 
 .content {
-// min-height:100%;
-  padding-top: 0px;
-  max-width: 100%;
-  width: 100%;
-
+	padding-top: 0px;
+	max-width: 100%;
+	width: 100%;
 }
 
 .nav-link,
 .nav-link-active{
-  font-family: Lato;
-  text-decoration: none;
-  font-size: 12pt;
-  padding-left: 5px;
-    padding-right: 5px;
-
-  font-weight: 300;
-}
-.nav-link{
- color: #000;
-}
-a.nav-link:hover{
-  color: pink;
+	font-family: Lato;
+	text-decoration: none;
+	font-size: 12pt;
+	padding-left: 5px;
+  	padding-right: 5px;
+	font-weight: 300;
 }
 
-a.nav-link-active{
-  color: pink;
-}
+.nav-link{color: #000;}
 
-a.nav-link-active:hover{
-  color: #000;
-}
+a.nav-link:hover{color: pink;}
+
+a.nav-link-active{color: pink;}
+
+a.nav-link-active:hover{color: #000;}
 
 a{
 	color: #000;
-text-decoration: none;
+	text-decoration: none;
 }
 
 .Navigat{
-  //width: 500;
- margin-left: 5px;
- vertical align: text-bottom;
-
+	margin-left: 5px;
+	vertical align: text-bottom;
 }
 
 navbar-brand{
- overflow: hidden;
-    vertical align: text-bottom;
+	overflow: hidden;
+	vertical align: text-bottom;
 }
 
 navbar{
- overflow: hidden;
-  vertical align: text-bottom;
-  width: auto;
-  display: inline;
+	overflow: hidden;
+	vertical align: text-bottom;
+	width: auto;
+	display: inline;
 }
 
-body{
-  margin: 0;
-}
-
+body{margin: 0;}
 
 .textPage{
-  margin-left: 5%;
-  margin-right: 5%;
-margin-bottom: 75px;
-  font-family: Lato;
-  color: #000;
- text-align: center;
-  font-size: 12pt;
-  font-weight: 300;
-
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 75px;
+	font-family: Lato;
+	color: #000;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: 300;
 }
-
 
 div.scrollmenu {
-    background-color: #fff;
+	background-color: #fff;
 	overflow-x: auto;
 	overflow-y: hidden;
-    white-space: nowrap;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-	margin-top: 0px;
-
+	white-space: nowrap;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
-
 container {
-height: 600px;
-    padding: 0;
-    margin: 0;
+	height: 600px;
+	padding: 0;
+	margin: 0;
 	white-space: nowrap;
 }
 
- img.slideImg,
-.slideshowBW,
-.scrollmenu{
-      height: 600px !important;
-          padding: 0;
-    margin: 0;
+img.slideImg, .slideshowBW, .scrollmenu{
+	height: 600px !important;
+	padding: 0;
+	margin: 0;
 }
-
-
-.slideshowBay{
-}
-
 
 table {
-    border-collapse: collapse;
-    max-width: 900px !important;
+	border-collapse: collapse;
+	max-width: 900px !important;
 	width: 100%;
 	margin: 0 auto 0;
-	 vertical align: middle;
-
+	vertical align: middle;
 }
 
 td, th {
-    border: 0px solid #dddddd;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
+	border: 0px solid #dddddd;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
 	width: 33.333%;
- vertical align: middle;
+	vertical align: middle;
 
 }
 
-
 h1{
-  font-family: Lato;
-  color: #000;
- text-align: center;
-  font-size: 13pt;
-  font-weight: 400;
+	font-family: Lato;
+	color: #000;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
 
-
-
-.clientLogo{
-max-width: 75%;	
-}
+.clientLogo{max-width: 75%;}
 
 @media screen and (min-width: 481px) {
 	.textPage{
 		margin-top: 120px !important;
 	}
 }
+
 @media screen and (max-width: 480px) {
+	.footer{
+		margin-bottom: 25px;
+		margin-top: 5px;
+	}
+	#gearbox{margin-top: 25px !important;}
 	
-.footer{
-	margin-bottom: 25px;
-	margin-top: 5px;
-	}
-	#gearbox{
-		margin-top: 25px !important;
-	}
-	.textPage{
-		margin-top: 60px !important;
-	}
-	.Navigat{
-	margin-top: 6px;
-	}
-	.slideshowBay{
-	margin-top: 35px !important;
-}
-    .nav-link,
-	.nav-link-active{
-        padding-left: 2.5px;
-        padding-right: 2.5px;
-	}
-img#Logo, #Logo{
+	.textPage{margin-top: 60px !important;}
+	
+	.Navigat{margin-top: 6px;}
+	
+	.slideshowBay{margin-top: 35px !important;}
+	
+	.nav-link, .nav-link-active{
+		padding-left: 2.5px;
+		padding-right: 2.5px;
 	}
 	.logo1{width: 120px !important;}
 	.logo2{width: 117.5px !important;}
 	.logo3{width: 115px !important;}
-		.logo4{width: 112.5px !important;}
-.logo5{width: 110px !important;}
-		.logo6{width: 107.5px !important;}
-.logo7{width: 105px !important;}
-		.logo8{width: 102.5px !important;}
-.logo9{width: 100px !important;}
-	nav,
-	.nav,
-	nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top
-	{
-	margin: 0px !important;
-	}
-	 img.slideImg,
-.slideshowBW,
-.scrollmenu,
-	container{
-      height: 400px !important;
-	}
+	.logo4{width: 112.5px !important;}
+	.logo5{width: 110px !important;}
+	.logo6{width: 107.5px !important;}
+	.logo7{width: 105px !important;}
+	.logo8{width: 102.5px !important;}
+	.logo9{width: 100px !important;}
+	
+	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
+	
+	img.slideImg, .slideshowBW, .scrollmenu, container{height: 400px !important;}
 }
 
 
 #gearbox {
-    display: block;
-    justify-content: space-between;
+	display: block;
+	justify-content: space-between;
 	overflow: hidden;
 }
+
 #leftgear, #rightgear, #thirdgear {
-    max-width: 100%;
+	max-width: 100%;
 	margin: 0 auto 0;
 	width: auto;
-    height: auto;
+	height: auto;
 	z-index: 10;
 }
 
-
 .footer{
 	margin-bottom: 50px;
-text-align: center;
- font-family: Lato;
-  color: #000;
- text-align: center;
-  font-size: 10pt;
-  font-weight: 300;
+	text-align: center;
+	font-family: Lato;
+	color: #000;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 300;
 }
