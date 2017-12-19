@@ -103,7 +103,6 @@ img.slideImg, .slideshowBW, .scrollmenu{
 
 table {
 	border-collapse: collapse;
-	max-width: 66.666% !important;
 	//width: 100%;
 	margin: 0 auto 0;
 	margin-top: 5%;
@@ -136,6 +135,9 @@ h1{
 .clientLogo{max-width: 75%;}
 
 @media screen and (min-width: 481px) {
+	table{
+		max-width: 66.666% !important;
+	}
 	.textPage{
 		margin-top: 100px !important;
 	}
@@ -145,6 +147,9 @@ h1{
 }
 
 @media screen and (max-width: 480px) {
+	table{
+		max-width: 100% !important;
+	}
 	.aboutPic{
 		width: 100% important;
 	}
