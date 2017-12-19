@@ -135,6 +135,9 @@ h1{
 .clientLogo{max-width: 75%;}
 
 @media screen and (min-width: 481px) {
+	.aboutPic{
+		width: 66.666%;
+	}
 	table{
 		max-width: 66.666% !important;
 	}
@@ -147,6 +150,9 @@ h1{
 }
 
 @media screen and (max-width: 480px) {
+	.aboutPic{
+		width: 100%;
+	}
 	table{
 		max-width: 100% !important;
 	}
@@ -224,5 +230,4 @@ margin: 10;
 
 .aboutPic {
 margin: 0 auto; 
-	width: 66.666%;
 }
