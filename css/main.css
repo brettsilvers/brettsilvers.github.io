@@ -103,8 +103,8 @@ img.slideImg, .slideshowBW, .scrollmenu{
 
 table {
 	border-collapse: collapse;
-	max-width: 900px !important;
-	width: 100%;
+	max-width: 66.666% !important;
+	//width: 100%;
 	margin: 0 auto 0;
 	vertical align: middle;
 }
