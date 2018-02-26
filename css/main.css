@@ -235,6 +235,8 @@ margin: 0 auto;
 
 .shop-grid-image{
 max-width: 250px;
+width: 33.333%;
+
 }
 
 .shop-grid-product-info{
