@@ -235,8 +235,8 @@ margin: 0 auto;
 
 .shop-grid-image{
 max-width: 250px;
-	padding: 10px;
 }
 
 .shop-grid-product-info{
+	line-height: 2.0;
 }
