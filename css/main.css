@@ -231,3 +231,8 @@ margin: 10;
 .aboutPic {
 margin: 0 auto; 
 }
+
+
+.shop-grid-image{
+max-width: 250px;
+}
