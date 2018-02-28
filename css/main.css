@@ -276,6 +276,6 @@ width: 100%;
 }
 a.photo:hover::after {
   content: url(https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png);
-	max-width: 250px;
-width: 100%;
+//	max-width: 250px;
+//width: 100%;
 }
