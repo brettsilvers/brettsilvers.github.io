@@ -236,46 +236,4 @@ margin: 0 auto;
 .shop-grid-image{
 max-width: 250px;
 width: 100%;
-
-}
-
-
-
-
-.wrapper {
-max-width: 250px;
-max-height: 375px;
-width: 250;
-height: 375%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;    
-}
-
-.wrapper.fade img:hover {
-    opacity: 0;
-}
-
-.wrapper img {
-    -webkit-transition: 0.01s;
-    -moz-transition: 0.01s;
-    transition: 0.01s;
-    display: block;
-}
-
-.wrapper.fade img {
-    position: absolute;
-}
-
-
-a.photo:hover img {
-  display: none;
-	//max-width: 250px;
-//width: 100%;
-
-}
-a.photo:hover::after {
-  content: url(https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png);
-//	max-width: 250px;
-//width: 100%;
 }
