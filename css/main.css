@@ -266,3 +266,11 @@ height: 375%;
 .wrapper.fade img {
     position: absolute;
 }
+
+
+a.photo:hover img {
+  display: none
+}
+a.photo:hover::after {
+  content: url(https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png);
+}
