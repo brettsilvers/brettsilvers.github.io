@@ -243,10 +243,23 @@ width: 100%;
 .shop-gridimg{
 max-width: 250px;
 width: 100%;
+	opacity: 1;
 }
 
 .shop-gridimg:hover{
 max-width: 250px;
-width: 100% !important!;
-	opacity: 0 !important;
+width: 100% ;
+	opacity: 0;
+}
+
+.shop-gridimg-secondary{
+max-width: 250px;
+width: 100%;
+	opacity: 0;
+}
+
+.shop-gridimg-secondary:hover{
+max-width: 250px;
+width: 100% ;
+	opacity: 1;
 }
