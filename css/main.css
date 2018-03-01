@@ -245,8 +245,8 @@ max-width: 250px;
 width: 100%;
 }
 
-.shop-gridimg: hover{
+.shop-gridimg:hover{
 max-width: 250px;
-width: 100%;
-	opacity: 0;
+width: 100% !important!;
+	opacity: 0 !important;
 }
