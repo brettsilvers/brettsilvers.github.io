@@ -244,13 +244,16 @@ width: 100%;
 #shop-gridimg {
    background-image: url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png');
 max-width: 250px;
+		max-height: 375px;
 width: 100%;
 	height: 100%;
 }
 
 #shop-gridimg:hover {
    background-image: url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png');
-	max-width: 250px;
+max-width: 250px;
+		max-height: 375px;
 width: 100%;
 	height: 100%;
+}
 }
