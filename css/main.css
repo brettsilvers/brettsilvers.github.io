@@ -241,6 +241,17 @@ width: 100%;
 }
 
 shop-gridimg{
+
+}
+
+#shop-gridimg {
+   background-image: url('LibraryTransparent.png');
 max-width: 250px;
+width: 100%;
+}
+
+#shop-gridimg:hover {
+   background-image: url('LibraryHoverTrans.png');
+	max-width: 250px;
 width: 100%;
 }
