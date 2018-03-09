@@ -268,3 +268,32 @@ width: 100% ;
 	opacity: 1;
 		position: absolute;
 }
+
+
+.product-image-container {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.product-image-wrapper {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+}
+
+
+.product-image-photo {
+    bottom: 0;
+    display: block;
+    height: auto;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
