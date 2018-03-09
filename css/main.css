@@ -258,12 +258,12 @@ width: 100% ;
 max-width: 250px;
 width: 100%;
 	opacity: 0;
-		position: absolute;
+		position: relative;
 }
 
 .shop-gridimg-secondary:hover{
 max-width: 250px;
 width: 100% ;
 	opacity: 1;
-		position: absolute;
+		position: relative;
 }
