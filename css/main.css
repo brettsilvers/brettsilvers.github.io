@@ -240,3 +240,13 @@ max-width: 250px;
 width: 100%;
 }
 
+
+ .imgOverlay
+ {
+     width: 250px;
+     height: 250px;
+     background: url(https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png) no-repeat;
+ }
+ .imgOverlay:hover {
+     background: url(https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png) no-repeat;
+ }
