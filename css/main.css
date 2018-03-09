@@ -268,20 +268,3 @@ width: 100% ;
 	opacity: 1;
 		position: absolute;
 }
-
-.gridimg-container{
-	position: static;
-}
-
-
-.myButtonLink {
-	display: block;
-max-width: 250px;
-width: 100% ;
-	height: 100px;
-	background: url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png') bottom;
-	text-indent: -99999px;
-}
-.myButtonLink:hover {
-	background-position: 0 0;
-}
