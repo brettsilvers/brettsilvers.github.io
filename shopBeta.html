@@ -61,26 +61,23 @@
 	</tr>
 		
 </table>
+
 	
 			<table>
-		<td style="line-height: 1.5; padding: 10px; font-weight: 300;"><a href="http://www.holdonnyc.com/" target="_blank">
+	<td style="line-height: 1.5; padding: 10px; font-weight: 300;"><a href="http://www.holdonnyc.com/" target="_blank">
 	  <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png
 "class="shop-grid-image"></a><br>
-		<a href="http://www.holdonnyc.com/" target="_blank">Duck Cap</a><br>
-		<a href="http://www.holdonnyc.com/" target="_blank">$25.00</a></td>
+	<a href="http://www.holdonnyc.com/" target="_blank">FeedMe Cap</a><br>
+	<a href="http://www.holdonnyc.com/" target="_blank">$25.00</a></td>
 	
-		<td style="line-height: 1.5; padding: 10px; font-weight: 300;"><a href="http://www.holdonnyc.com/" target="_blank">
+	<td style="line-height: 1.5; padding: 10px; font-weight: 300;"><a href="http://www.holdonnyc.com/" target="_blank">
 	  <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png
-"class="imgOverlay"></a><br>
-		<a href="http://www.holdonnyc.com/" target="_blank">Duck Cap</a><br>
+"class="shop-grid-image"></a><br>
+		<a href="http://www.holdonnyc.com/" target="_blank">BDSM Cap</a><br>
 		<a href="http://www.holdonnyc.com/" target="_blank">$25.00</a></td>
 	<td style="line-height: 1.5; padding: 10px; font-weight: 300;"><a href="http://www.holdonnyc.com/" target="_blank">
-	
-                                            <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png
-"class="shop-grid-image"></a><br>
-		<a href="http://www.holdonnyc.com/" target="_blank">Duck Cap</a><br>
-		<a href="http://www.holdonnyc.com/" target="_blank">$25.00</a></td></a>
-<br>
+	  <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png
+"class="shop-grid-image"  onmouseover = "mouseOverImage()"  onmouseout="mouseOutImage()"></a><br>
 		<a href="http://www.holdonnyc.com/" target="_blank">Duck Cap</a><br>
 		<a href="http://www.holdonnyc.com/" target="_blank">$25.00</a></td>
 	</tr>
@@ -139,6 +136,16 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
  
 }
 
+</script>
+
+<script>
+	function mouseOverImage() {
+            document.getElementById('<%= ImageButton1.ClientID %>').src = "https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png";
+        }
+ 
+        function mouseOutImage() {
+            document.getElementById('<%= ImageButton1.ClientID %>').src = "https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png";
+        }
 </script>
 </body>
 </html>
