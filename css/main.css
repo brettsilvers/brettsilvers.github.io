@@ -108,7 +108,7 @@ table {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	vertical align: middle;
-	    font-weight: normal;
+	    font-weight: 300;
 }
 
 td, th {
@@ -120,7 +120,7 @@ td, th {
 	padding-right: 0px;
 	width: 33.333%;
 	vertical align: middle;
-	    font-weight: normal;
+	    font-weight: 300;
 
 }
 
