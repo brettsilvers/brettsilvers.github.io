@@ -101,6 +101,12 @@ img.slideImg, .slideshowBW, .scrollmenu{
 	margin: 0;
 }
 
+@media screen and (max-width: 480px) {
+img.slideImg, .slideshowBW, .scrollmenu, container{
+	height: 400px !important;
+	}
+}
+
 table {
 	border-collapse: collapse;
 	//width: 100%;
