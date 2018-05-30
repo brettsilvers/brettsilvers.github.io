@@ -103,7 +103,7 @@ img.slideImg, .slideshowBW, .scrollmenu{
 
 @media screen and (max-width: 480px) {
 img.slideImg, .slideshowBW, .scrollmenu, container{
-	height: 400px !important;
+	height: 360px !important;
 	}
 }
 
