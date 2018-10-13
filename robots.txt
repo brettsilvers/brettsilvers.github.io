@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /shopBeta/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.brettsilvers.tk/sitemap.xml
