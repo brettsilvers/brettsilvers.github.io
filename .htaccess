@@ -1,4 +1,5 @@
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile leo.html/.htpasswd  
+AuthUserFile 
+        brettsilvers.github.io/leo.html/.htpasswd  
 require valid-user
