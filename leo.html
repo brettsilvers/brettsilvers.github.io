@@ -4,24 +4,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
  
 <style>
+
+.body{
+margin:0  !important;}
  
 .leoMenu{
 width:20px;
 height: auto; 
 //float: right; 
-margin: 5px;
+//margin: 5px;
 float: right;
 right: 20px;
 position: relative;
 
 }
+
+.leoMenu2{
+width:20px;
+height: auto; 
+//float: right; 
+//margin: 5px;
+float: right;
+right: .1%;
+position: relative;
+
+}
 .navbar {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.9;
   position: fixed;
   top: 0;
   width: 100%;
+  height: 40px;
   z-index:1000;
 }
 .navbar a {
@@ -39,11 +54,12 @@ position: relative;
 }
 .bottombar {
   overflow: hidden;
-  background-color: #000;
+  background-color: #fff;
   opacity: 0.9;
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 40px;
   z-index:1000;
 }
 .bottombar a {
@@ -60,8 +76,10 @@ position: relative;
   color: black;
 }
 .main {
- // padding: 16px;
-  //margin-top: 30px;
+  padding: 1%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 .img {
     border-radius: 5px;
@@ -87,20 +105,23 @@ margin:1%;
 }
 </style>
 </head>
-<body>
+<body style="margin: 0 !important;">
 
 <div class="navbar">
- <!-- <a href="#home">Home</a>-->
-  <div class="leoMenu"><object data="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0%0D%0Ab3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZl%0D%0AcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEi%0D%0AIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93%0D%0Ad3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTAg%0D%0ANTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgeG1sOnNwYWNlPSJw%0D%0AcmVzZXJ2ZSI+DQo8Zz4NCgk8cmVjdCB5PSIzIiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0KCTxy%0D%0AZWN0IHk9IjE3IiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHk9IjMxIiB3aWR0aD0i%0D%0ANTAiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHk9IjQ1IiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0K%0D%0APC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwv%0D%0AZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+%0D%0ADQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0K%0D%0APC9zdmc+DQo=" type="image/svg+xml" style="">
+<div class="leoMenu"><object data="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0%0D%0Ab3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZl%0D%0AcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEi%0D%0AIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93%0D%0Ad3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTAg%0D%0ANTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgeG1sOnNwYWNlPSJw%0D%0AcmVzZXJ2ZSI+DQo8Zz4NCgk8cmVjdCB5PSIzIiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0KCTxy%0D%0AZWN0IHk9IjE3IiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHk9IjMxIiB3aWR0aD0i%0D%0ANTAiIGhlaWdodD0iMiIvPg0KCTxyZWN0IHk9IjQ1IiB3aWR0aD0iNTAiIGhlaWdodD0iMiIvPg0K%0D%0APC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwv%0D%0AZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+%0D%0ADQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0K%0D%0APC9zdmc+DQo=" type="image/svg+xml" style="">
   <img src="" />
 </object></div>
+
+
 </div>
 
 <div class="bottombar">
  
 
 <table style="width:100%;
-text-align: center;
+text-align: center; margin: 0 auto; border: 1px solid #000;     vertical-align: center; 
+
+
 ">
   <tr>
     <td>  <object data="
@@ -133,17 +154,20 @@ text-align: center;
 </table>
 </div>
 
-  
-  <div class="img" style="background-image:url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/Untitled-1333-9.png');
+  <div class="main">
+  <div class="img" style="background-image:url('https://i.ytimg.com/vi/3yWMjyLsiso/maxresdefault.jpg');
 "></div>
-<div class="imgHalf" style="background-image:url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/Untitled-1333-9.png');
+<div class="imgHalf" style="background-image:url('http://zouchmagazine.com/wp-content/uploads/2012/03/Looking-Back-at-Cindy-Sherman.png');
 "></div>
-<div class="imgHalf" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');
+<div class="imgHalf" style="background-image:url('https://brooklynrail.org/article_image/image/18517/Lau-LARGE-web1.jpg');
 "></div>
-<div class="img" style="background-image:url('https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/birds-7.png');"></div>
-<div class="imgHalf" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
-<div class="imgHalf" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
-
+<div class="img" style="background-image:url('http://themicrogiant.com/wp-content/uploads/2014/02/ZZ58224D07.jpg');"></div>
+<div class="imgHalf" style="background-image:url('https://www.donaufestival.at/en/festival/program/188-ryan-trecartin-lizzie-fitch/ryan-trecartin-lizzie-fitch-premise-place-edit-1/image');"></div>
+<div class="imgHalf" style="background-image:url('https://s3.amazonaws.com/media.artslant.com/work/image/577802/slide/20120506233413-The_ReSearch_still.jpg');"></div>
+<div class="img" style="background-image:url('https://magicbeans.gallery/wp-content/uploads/sangwookim-exhibition-display_026.jpg');"></div>
+<div class="imgHalf" style="background-image:url('https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/4/29/1430317567698/a3541474-a7d9-4c7f-bac5-5dded7168caf-2060x815.jpeg?width=700&quality=85&auto=format&fit=max&s=6d3722b5907ebef8fa03d835cc522d2f');"></div>
+<div class="imgHalf" style="background-image:url('http://www.konbini.com/wp-content/blogs.dir/4/files/2015/12/GG-stereotypes-810x572.jpg');"></div>
+</div>
 
  
 </body>
