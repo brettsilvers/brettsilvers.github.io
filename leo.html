@@ -5,9 +5,15 @@
  
 <style>
 
-.bottomspacer{
-margin:15px;
-color:#fff;}
+@media screen and (min-width: 481px) {
+   .img { height: 200px !important;}
+
+}
+
+@media screen and (max-width: 480px) {
+    .img {height: 100px !important;}
+
+}
 
 .body{
 margin:0  !important;}
@@ -90,8 +96,11 @@ position: relative;
   color: black;
 }
 .main {
-  padding: 1%;
-  margin-top: 35px;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  //margin-top: 35px;
 }
 .img {
     border-radius: 5px;
@@ -99,7 +108,7 @@ margin:1%;
     position: relative;
     float: left;
     width:  98%;
-    height: 100px;
+   // height: 100px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -193,10 +202,10 @@ text-align: center; margin: 0 auto; border: 0px solid #000;     vertical-align: 
 <div class="img" style="background-image:url('https://magicbeans.gallery/wp-content/uploads/sangwookim-exhibition-display_026.jpg');"></div>
 <div class="imgHalf" style="background-image:url('https://cdn-images-1.medium.com/max/1600/1*8urnJSGDc1MIUY0FUy3nPg.gif');"></div>
 <div class="imgHalf" style="background-image:url('http://www.konbini.com/wp-content/blogs.dir/4/files/2015/12/GG-stereotypes-810x572.jpg');"></div>
-<div class="bottomspacer">.
-</div>
+
 </div>
 
  
 </body>
 </html>
+
