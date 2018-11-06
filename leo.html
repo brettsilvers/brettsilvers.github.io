@@ -116,5 +116,35 @@ margin:1%;
 <div class="imgHalf" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
 <div class="imgHalf" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
 
+ 
+ <SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "leo2018!") {
+alert('You Got it Right!');
+window.open('www.brettsilvers.tk/leo');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
+ 
 </body>
 </html>
+
+
