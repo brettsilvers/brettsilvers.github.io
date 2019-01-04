@@ -258,3 +258,10 @@ width: 100%;
  .imgOverlay:hover {
      background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png") no-repeat !important;
  }
+
+.yesHover{
+opacity: 0;}
+
+.noHover:hover yesHover{
+	opacity: 1;
+}
