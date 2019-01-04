@@ -262,6 +262,6 @@ width: 100%;
 .yesHover{
 opacity: 0;}
 
-.noHover:hover yesHover{
+.noHover:hover .yesHover{
 	opacity: 1;
 }
