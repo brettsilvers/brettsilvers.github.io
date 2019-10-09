@@ -49,8 +49,8 @@ position: fixed;
 .shop-grid-image{width:200px;}
 
 .card {
-        width: 130px;
-        height: 195px;
+        width: 200px;
+        height: 300px;
 	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png") no-repeat;}
 
 .card:hover {
