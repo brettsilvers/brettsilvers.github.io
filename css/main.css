@@ -271,6 +271,12 @@ position:absolute;}
 
 
 //new
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
 
 #site-container {
    min-height:100%;
