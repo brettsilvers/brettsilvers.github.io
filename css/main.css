@@ -1,29 +1,270 @@
-
-
-//new
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
+nav{
+	position:fixed;
+	top:0;
+	margin: 15px;
+	z-index: 9999999;
 }
 
-#site-container {
-   min-height:100%;
-   position:relative;
+#Logo{transition: all 0.3s;}
+
+.logo1{width: 160px;}
+.logo2{width: 155px;}
+.logo3{width: 150px;}
+.logo4{width: 145px;}
+.logo5{width: 140px;}
+.logo6{width: 135px;}
+.logo7{width: 130px;}
+.logo8{width: 125px;}
+.logo9{width: 120px;}
+
+.content {
+	padding-top: 0px;
+	max-width: 100%;
+	width: 100%;
 }
-#site-header {
-   background:#ff0;
-   padding:10px;
+
+.nav-link,
+.nav-link-active{
+	font-family: Work Sans;
+	text-decoration: none;
+	font-size: 12pt;
+	padding-left: 5px;
+  	padding-right: 5px;
+	font-weight: 300;
 }
-#site-body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
+
+.nav-link{color: #000;}
+
+a.nav-link:hover{color: pink;}
+
+a.nav-link-active{color: pink;}
+
+a.nav-link-active:hover{color: #000;}
+
+a{
+	color: #000;
+	text-decoration: none;
 }
-#site-footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
+
+.Navigat{
+	margin-left: 5px;
+	vertical align: text-bottom;
 }
+
+navbar-brand{
+	overflow: hidden;
+	vertical align: text-bottom;
+}
+
+navbar{
+	overflow: hidden;
+	vertical align: text-bottom;
+	width: auto;
+	display: inline;
+}
+
+body{margin: 0;}
+
+.textPage{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 75px;
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+div.scrollmenu {
+	background-color: #fff;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+container {
+	height: 600px;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+img.slideImg, .slideshowBW, .scrollmenu{
+	height: 600px !important;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+img.slideImg, .slideshowBW, .scrollmenu, container{
+	height: 360px !important;
+	}
+}
+
+table {
+	border-collapse: collapse;
+	//width: 100%;
+	margin: 0 auto 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	vertical align: middle;
+	    font-weight: 300;
+}
+
+td, th {
+	border: 0px solid #dddddd;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 33.333%;
+	vertical align: middle;
+	    font-weight: 300;
+
+}
+
+h1{
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.clientLogo{max-width: 75%;}
+
+@media screen and (min-width: 481px) {
+	.aboutPic{
+		width: 66.666%;
+	}
+	table{
+		max-width: 66.666% !important;
+	}
+	.textPage{
+		margin-top: 100px !important;
+	}
+	.footer{
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.aboutPic{
+		width: 100%;
+	}
+	table{
+		max-width: 100% !important;
+	}
+	.aboutPic{
+		width: 100% important;
+	}
+	.footer{
+		margin-bottom: 25px;
+		margin-top: 5px;
+	}
+	#gearbox{margin-top: 25px !important;}
+	
+	.textPage{margin-top: 60px !important;}
+	
+	.Navigat{margin-top: 6px;}
+	
+	.slideshowBay{margin-top: 35px !important;}
+	
+	.nav-link, .nav-link-active{
+		padding-left: 2.5px;
+		padding-right: 2.5px;
+	}
+	.logo1{width: 120px !important;}
+	.logo2{width: 117.5px !important;}
+	.logo3{width: 115px !important;}
+	.logo4{width: 112.5px !important;}
+	.logo5{width: 110px !important;}
+	.logo6{width: 107.5px !important;}
+	.logo7{width: 105px !important;}
+	.logo8{width: 102.5px !important;}
+	.logo9{width: 100px !important;}
+	
+	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
+	
+	img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
+}
+
+
+#gearbox {
+	display: block;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#leftgear, #rightgear, #thirdgear {
+	max-width: 100%;
+	margin: 0 auto 0;
+	width: auto;
+	height: auto;
+	z-index: 10;
+}
+
+.footer{
+	//margin-bottom: 50px;
+	text-align: center;
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 300;
+	bottom: 10%;
+}
+
+
+.footerShort{
+	position: fixed;
+	bottom: 0;
+margin: 10;
+	text-align: center;
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 300;
+}
+
+.aboutPic {
+margin: 0 auto; 
+}
+
+
+.shop-grid-image{
+max-width: 250px;
+width: 100%;
+}
+
+
+ .imgOverlay
+ {
+     max-width: 250px;
+	 width: 100%;
+     height: 100%;
+	 max-height: 375px;
+     background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png") no-repeat;
+ }
+ .imgOverlay:hover {
+     background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png") no-repeat !important;
+ }
+
+.yesHover{
+opacity: 0;
+position:absolute;}
+
+.noHover:hover .yesHover{
+	opacity: 1;
+}
+
