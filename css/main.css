@@ -17,3 +17,10 @@ position: fixed;
 	position:fixed;
 	width: 100%;
 }
+
+@media screen and (max-width: 720px) {
+.splash-image{
+position: fixed;
+  width: 50vw;
+	}
+}
