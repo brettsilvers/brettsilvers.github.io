@@ -6,10 +6,14 @@ h1{	font-family: Arial, sans-serif;
 	font-size: 12pt;
 	line-height:15pt;
 	  letter-spacing: 8pt;
-	  font-stretch: ultra-expanded;
 	font-weight: 900;
 text-transform: uppercase;
-text-align:center;}
+text-align:center;
+transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */}
 
 p{	font-family: Work Sans, sans-serif;
 	color: #000;
