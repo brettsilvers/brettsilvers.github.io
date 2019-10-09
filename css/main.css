@@ -267,3 +267,27 @@ position:absolute;}
 .noHover:hover .yesHover{
 	opacity: 1;
 }
+
+
+
+//new
+
+#site-container {
+   min-height:100%;
+   position:relative;
+}
+#site-header {
+   background:#ff0;
+   padding:10px;
+}
+#site-body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#site-footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
