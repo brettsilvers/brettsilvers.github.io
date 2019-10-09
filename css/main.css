@@ -10,10 +10,10 @@ h1{	font-family: Arial, sans-serif;
 text-transform: uppercase;
 text-align:center;
 transform: scale(1, 1.5);
-  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
-  -moz-transform: scale(1, 1.5); /* Firefox */
-  -ms-transform: scale(1, 1.5); /* IE 9+ */
-  -o-transform: scale(1, 1.5); /* Opera */}
+  -webkit-transform: scale(1, .75); /* Safari and Chrome */
+  -moz-transform: scale(1, .75); /* Firefox */
+  -ms-transform: scale(1, .75); /* IE 9+ */
+  -o-transform: scale(1, .75); /* Opera */}
 
 p{	font-family: Work Sans, sans-serif;
 	color: #000;
@@ -53,6 +53,7 @@ position: fixed;
 	align-items: center;
   justify-content: center;
   //background-color: DodgerBlue;
+	margin: 0 auto;
 }
 
 .flex-container > div {
