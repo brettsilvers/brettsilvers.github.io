@@ -47,3 +47,12 @@ position: fixed;
 }
 
 .shop-grid-image{width:200px;}
+
+.card {
+        width: 130px;
+        height: 195px;
+	background: url("/examples/images/card-back.jpg") no-repeat;}
+
+.card:hover {
+        background: url("/examples/images/card-front.jpg") no-repeat;
+    }
