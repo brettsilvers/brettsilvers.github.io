@@ -39,7 +39,7 @@ position: fixed;
   flex-wrap: wrap;
 	align-items: center;
   justify-content: center;
-  background-color: DodgerBlue;
+  //background-color: DodgerBlue;
 }
 
 .flex-container > div {
@@ -58,10 +58,13 @@ position: fixed;
         height: 300px;
 	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png") no-repeat;
 background-size: cover;
+	  background-position: center;
+
 }
 
 .card:hover {
         background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png") no-repeat;
 background-size: cover;
+	  background-position: center; 
    
 }
