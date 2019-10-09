@@ -51,8 +51,8 @@ position: fixed;
 .card {
         width: 130px;
         height: 195px;
-	background: url("/examples/images/card-back.jpg") no-repeat;}
+	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d.png") no-repeat;}
 
 .card:hover {
-        background: url("/examples/images/card-front.jpg") no-repeat;
+        background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/46172888_050_d-alt.png") no-repeat;
     }
