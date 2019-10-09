@@ -1,4 +1,9 @@
-
+.splash-img{
+position: fixed;
+  width: 25vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
 
 .footer{
 	margin: 0 auto;
