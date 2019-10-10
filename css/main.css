@@ -40,7 +40,7 @@ position: fixed;
 	top: 95%;
 	position:fixed;
 	width: 100%;
-	font-size:10pt;
+	font-size:8pt!important;
 }
 
 @media screen and (max-width: 720px) {
