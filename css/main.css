@@ -258,7 +258,7 @@ img {
 .mySlides,
 img.mySlides{
   margin: 0 auto;
-  max-height:600px;
+  max-height:400px;
    width:auto;
     display: block;
 }
