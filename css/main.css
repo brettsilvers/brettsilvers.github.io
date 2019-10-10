@@ -95,7 +95,7 @@ background-size: cover;
 
 
 
-.flex-container {
+.flex-container-pdp {
   background:white;
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@ text-align: left;}
   
   
   @media only screen and (max-width: 768px) {
-    .flex-container{  flex-direction: column;
+    .flex-container-pdp{  flex-direction: column;
       width:80%;
 }
 .pdp-pic{width:100%!important;}
