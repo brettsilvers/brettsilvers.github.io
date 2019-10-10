@@ -104,7 +104,7 @@ background-size: cover;
   display: flex;
   justify-content: center;
     margin-top:100px!important;
-  width:80%;
+  width:60%;
 	margin:0 auto;
  // pointer-events: auto;
 
@@ -297,5 +297,5 @@ img.mySlides{
 @media screen and (max-width: 480px) {
 .pdp-main: text-align: center;
 }
-p{font-size:12pt;}
+//p{font-size:12pt;}
 }
