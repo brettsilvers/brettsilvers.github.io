@@ -24,7 +24,8 @@ p{	font-family: Work Sans, sans-serif;
 strong{	font-weight: 500;}
 }
 
-.splash-image{
+.splash-image,
+#splash-image{
 position: fixed;
   width: 25vw;
   top: 50%;
@@ -40,7 +41,8 @@ position: fixed;
 }
 
 @media screen and (max-width: 720px) {
-.splash-image{
+.splash-image,
+	#splash-image{
 position: fixed;
   width: 50vw;
 	}
@@ -52,23 +54,15 @@ position: fixed;
   flex-wrap: wrap;
 	align-items: center;
   justify-content: center;
-  //background-color: DodgerBlue;
 	margin: 0 auto;
 }
 
 .flex-container > div {
-	//flex-basis: 33.333%
-			//flex-grow: 1;
-	//width: 33.333%;
-//  background-color: #f1f1f1;
   width: 200px;
   margin: 10px;
   text-align: center;
-  //line-height: 75px;
-//  font-size: 30px;
 }
 
-//.shop-grid-image{width:200px;}
 
 .card {
         width: 200px;
