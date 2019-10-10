@@ -80,3 +80,216 @@ background-size: cover;
 	  background-position: center; 
    
 }
+
+//pdp below
+
+#pdp-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-1;
+  pointer-events: auto!important;
+}
+
+
+
+.flex-container {
+  background:white;
+  display: flex;
+  justify-content: center;
+    margin-top:100px!important;
+  width:60%;
+  margin:0 auto;
+ // pointer-events: auto;
+
+}
+
+.pdp-pic{ width:60%;
+  float:left;}
+
+.pdp-text{  padding-left:2.5%;
+  padding-right:2.5%;
+  width:calc(40% - 5%); 
+  float:right;
+padding-top:50px;}
+
+
+.pdp-buy{background:red;color:white;text-transform:uppercase;border:0px solid white; width:200px;height:50px;}
+  
+  
+  @media only screen and (max-width: 768px) {
+    .flex-container{  flex-direction: column;
+      width:80%;
+}
+.pdp-pic{width:100%!important;}
+
+.pdp-text{width:100%;
+    padding-left:0px;
+    padding-top:25px;
+      // margin-top:25px!important;
+}
+}
+.container{
+  margin-top:20%;
+  width:60%;
+//text-align:center;
+  margin:0 auto;}
+
+.drawerCollapsible {
+ // cursor: cell!important;
+  border-top: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight:400;
+}
+
+
+.active, .drawerCollapsible:hover{background-color: white;}
+
+.drawerCollapsible:after {
+  //  cursor: cell!important;
+  content: '\002B';
+  float: right;
+  margin-left: 0px;
+    font-weight: 400;
+}
+
+
+.active:after{
+  content: "\2212";
+  font-weight:400;
+}
+
+.drawerCollapsible:active,
+.drawerCollapsible.active{font-weight: 500;}
+
+.drawerContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  margin-bottom:15px;
+  font-size:12px;
+}
+
+.td-pdp-whats-included{
+text-align:center;
+  width:33.333%;
+}
+
+#td-pdp-whats-included-img{vertical-align:middle}
+#td-pdp-whats-included-label{vertical-align:top}
+
+  .pdp-setup-app-icon{padding-left:10px; padding-bottom:0px; padding-top:10px; vertical-align:middle;
+padding-right:0px;}
+  
+  .pdp-setup-td{padding: 10px; vertical-align:top}
+
+
+.td,
+td{border:0px solid black !important;
+}
+
+
+table, td, tr{  border-collapse: collapse;}
+
+#slider{
+  margin:0!important;
+  padding:0!important;
+border-collapse: collapse;
+border: 0px solid white;}
+
+
+
+h1,.h1{margin:0 auto;line-height:1;}
+
+.pdp-main,.pdp-description,.pdp-buy{margin-bottom:25px;}
+
+/* pic above */
+
+ .w3-content{margin-left:auto;margin-right:auto;max-width:980px}
+
+
+.w3-left{float:left!important}
+
+.w3-right{float:right!important}
+
+
+.w3-hover-text-khaki:hover{color:#b4aa50!important}
+
+
+.w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
+
+
+
+
+.w3-col.s4{width:33.33333%}
+
+.w3-section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
+    padding: 0 8px;
+}
+
+.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.mySlides,
+img.mySlides{
+  margin: 0 auto;
+  max-height:200px;
+   width:auto;
+    display: block;
+}
+
+.w3-section {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.w3-opacity, .w3-hover-opacity:hover {
+ //   opacity: 0.60;
+}
+
+.w3-hover-opacity-off:hover{opacity:1}
+
+.w3-display-bottommiddle {
+    position: absolute!important;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+}
+
+.w3-section, .w3-codef {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px!important;
+}
+
+
