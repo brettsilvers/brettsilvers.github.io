@@ -174,7 +174,7 @@ text-align: left;}
 
 .active:after{
   content: "\2212";
-  font-weight:400;
+  font-weight:500;
 }
 
 .drawerCollapsible:active,
@@ -186,7 +186,7 @@ text-align: left;}
   transition: max-height 0.2s ease-out;
   background-color: white;
   margin-bottom:15px;
-  font-size:12px;
+  font-size:inherit;
 }
 
 
