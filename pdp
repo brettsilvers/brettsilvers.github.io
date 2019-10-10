@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+	
+	<link rel="icon" 
+      type="image/ico" 
+      href="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/favicon.ico" />
+	
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	  <title>brettsilvers.tk</title>
+	<meta name="description" content="Illustration and more.">
+<meta name="keywords" content="Brett Silvers,Illustration,Art,Brooklyn">
+	
+	
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40994036-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-40994036-2');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<video autoplay muted loop id="pdp-video">
+  <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+</video>
+
+<div class="flex-container">
+  <div class="pdp-pic">
+  <div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkpgoz_icR4E8HZhoj_WiCdcEhE_TcfhBYueEw4XGJlgOK4Ls" style="display:none">
+  <img class="mySlides" src="https://www.pinclipart.com/picdir/middle/320-3203247_cool-clipart-tortoise-tortoise-clipart-transparent-background-png.png" style="display:none;">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkPelCtqR968EFjTF_N85ovfcNK8Sutoi-lVDTMHhbYoIfD0zeEQ" style="display:none"> 
+     <img class="mySlides" src="https://png.pngtree.com/png_detail/20181009/cool-cartoon-sun-png-clipart_2804114.png" style="display:none"> 
+     <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmVwR4Gt2akovxElR6YlsIXJeKgzxaDb2c8gq4oZ_Rst-qA7PXA" style="display:none"> 
+    <table style="margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px; margin-top:7.5px!important;">
+      <tr style="margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px;">
+        <td width="20%" style="vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px; padding-right:5px!important;">
+          <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkpgoz_icR4E8HZhoj_WiCdcEhE_TcfhBYueEw4XGJlgOK4Ls" style="width:100%;" onclick="currentDiv(1)">
+        </td>
+        <td width="20%" style="vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse;padding:0px; padding-left: 2.5px; padding-right: 2.5px ;">
+          <img class="" src="https://www.pinclipart.com/picdir/middle/320-3203247_cool-clipart-tortoise-tortoise-clipart-transparent-background-png.png" style="width:100%;" onclick="currentDiv(2)">
+        </td>
+                <td width="20%" style="vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse;padding:0px; padding-left: 2.5px; padding-right: 2.5px ;">
+          <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkPelCtqR968EFjTF_N85ovfcNK8Sutoi-lVDTMHhbYoIfD0zeEQ" style="width:100%;" onclick="currentDiv(3)">
+        </td>
+                <td width="20%" style="vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse;padding:0px; padding-left: 2.5px; padding-right: 2.5px ;">
+          <img class="" src="https://png.pngtree.com/png_detail/20181009/cool-cartoon-sun-png-clipart_2804114.png" style="width:100%;" onclick="currentDiv(4)">
+        </td>
+        <td width="20%" style="vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse;padding:0px; padding-left:5px;">
+          <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmVwR4Gt2akovxElR6YlsIXJeKgzxaDb2c8gq4oZ_Rst-qA7PXA" style="width:100%;" onclick="currentDiv(5)">
+        </td>
+        
+      </tr>
+    </table>
+</div>
+  </div>
+  <div class="pdp-text"><div class="pdp-main"> <h1>product title</h1><br>
+  <span id="pdp-price">$39.99
+  </span><br>
+  <span id="pdp-color">color</span><br>
+ <span id="pdp-size"> size</span><br>
+  </div>
+    <!--<button class="pdp-buy">Buy</button>
+  <div class="pdp-description">
+  Product description Lorem ipsum
+  </div>-->
+    
+  <a href="buy">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQP_QxhG81ujqhmtJeQ0-_Ucan9tgk44BKZYZ0GLHdbnKEXIO" style="max-width:150px; margin-bottom:30px;"></a>
+
+<button class="drawerCollapsible" style="padding:0; padding-top:15px; border-top:1px solid black;">Sizing Info</button><div class="drawerContent"><br><p>&#10004; waist<br>
+    &#10004; inseam<br>
+  &#10004; fit</p></div>
+    
+    <button class="drawerCollapsible" style="padding:0; padding-top:15px; border-top:1px solid black;">Product Details</button><div class="drawerContent"><br>
+    <p>&#10004; 100% cotton<br>
+  &#10004; made in XX</p></div>
+
+<!--<button class="drawerCollapsible" style="padding:0; padding-top:15px;  border-top:1px solid black;">What's Included</button><div class="drawerContent"><br><table><tr>
+    <td class="td-pdp-whats-included"id="td-pdp-whats-included-img">{% include 'svg-itouch-curve' , custom_dimensions: false %}</td>
+  <td class="td-pdp-whats-included"id="td-pdp-whats-included-img">{% include 'svg-itouch-charger', custom_dimensions: false %}</td>
+      </tr>
+  <tr>
+      <td class="td-pdp-whats-included"id="td-pdp-whats-included-label">1 iTouch Curve</td>
+      <td class="td-pdp-whats-included"id="td-pdp-whats-included-label">1 USB Charging Cable</td>
+    </tr></table></div> -->
+
+<button class="drawerCollapsible" style="padding:0px; padding-top:15px;  border-top:1px solid black;">Shipping and Returns</button>
+<div class="drawerContent">
+  <br>
+  <strong>Shipping Rates</strong><br>
+  <table style="font-size:12px; border:1px solid black; margin-top:10px; width:100%;">
+
+      <tr>
+      <td>Free Shipping*</td>
+      <td>5–7 Business Days</td>
+      </tr>
+      <tr style="background-color:#f4f4f4">
+      <td>USPS Priority Mail*</td>
+      <td>2 Business Days</td>
+      </tr>
+        <tr>
+      <td>International Shipping</td>
+       <td>Varies depending on country.<br><a href="/pages/contact" target="blank" rel="noopener">Contact us</a> for more details.</td>
+    </tr>
+  </table>
+  <span style="font-size:12px">*US Only</span><br><br>
+  <strong>Return Policy</strong>
+  <p>Click <a href="/pages/shipping-return-policy" target="blank" rel="noopener">here</a> to view our full Return Policy.</p>
+</div>
+
+<!--<button class="drawerCollapsible" style="padding:0px; padding-top:15px;  border-top:1px solid black;">Setting Up Your Product</button><div class="drawerContent"><br><table style="border:1px solid black;">
+  <tr>
+    <td style="background-color:#f4f4f4; padding:10px; width:50%">        <strong>Step 1</strong><br>
+</td>
+    <td style="background-color:#f4f4f4; padding: 10px;width:50%">      <strong>Step 2</strong><br>
+</td>
+  </tr>
+  <tr>
+    <td class="pdp-setup-app-icon">
+      <img src="https://cdn.shopify.com/s/files/1/1941/1805/t/30/assets/app-sw2.png?4791" alt="iTouch SW2 App" height="50px" width="50px">
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td class="pdp-setup-td">
+
+      Download the <strong>iTouch Smartwatch App</strong> for either <a href="https://play.google.com/store/apps/details?id=com.kct.itouchsw2" target="blank" rel="noopener"><strong>Android</strong></a> or <a href="https://itunes.apple.com/us/app/itouchsw2/id1171670151?mt=8" target="blank" rel="noopener"><strong>iOS</strong></a>.
+    </td>
+    <td class="pdp-setup-td">
+      Sync your watch to your phone via Bluetooth, and you’re ready to start tracking!
+    </td>
+  </tr>
+</table><br>
+          
+<span style="font-size:12px;"><strong>Need More Help?</strong> Visit the iTouch Curve <a href="" target="blank" rel="noopener"><strong>FAQ</strong></a> or <a href="" target="blank" rel="noopener"><strong>Contact Us</strong></a>.
+</span></div>-->
+
+<!--<button class="drawerCollapsible" style="padding:0; padding-top:15px;  border-top:1px solid black;">More Information</button><div class="drawerContent"><br><p>
+  Unlike any other smartwatch available on the market today, the iTouch Curve offers incredible functionality with unmatched durability in a compact and comfortable piece of smart technology. Adding a unique take on the smartwatch, the iTouch Curve features a soft and sleek rounded touchscreen face, bringing next level interactivity and visibility to the stats you need to keep you informed throughout the day. Plus, the curved face provides a subtle look on your wrist that will blend seamlessly whether you’re killing it at the gym or crushing it in the office. 
+<br><br>
+With the iTouch Curve, you’ll take your health and fitness up a notch without breaking the bank. Time, steps taken, weather, incoming calls, and much more, are right at your fingertips with total convenience. The affordable iTouch Curve is one of the best smartwatches under 50 dollars, giving you the high quality product you need without sacrificing any valuable features. Built to enhance your everyday life, the iTouch Curve can be customized to match your unique style. Choose from a variety of face and band colors that effortlessly transition throughout the day, from work to play. 
+<br><br>
+Whether you’re in the market for a sleek and stylish silver smartwatch, a sporty and fun blue smartwatch, or simple and clean white smartwatch, the iTouch Curve is the perfect option. When you purchase the iTouch Curve, you’ll receive the iTouch Curve, the USB charging cable, as well as the iTouch Curve manual. Have questions about your new product? Simply consult the iTouch Curve manual where you can find the answers to all questions you might have, from setup through daily use. As a leading provider of long-lasting, affordable smartwatches, you can trust iTouch Wearables to offer only the latest in smart technology, so you can finally get your health on track.   
+
+</p></div>-->
+</div>
+
+  </div>  
+</div>
+
+
+
+	
+	 <div class="footer">
+		   <p>© <script type="text/javascript">
+  document.write(new Date().getFullYear());
+			   </script> Brett Silvers</p>
+		</div>
+</div>
+	
+	</body>
+</html>
