@@ -163,6 +163,7 @@ text-align: left;}
 
 .drawerCollapsible:after {
 	font-family: inherit;
+	font-size:inherit;
     cursor: cell!important;
   content: '\002B';
   float: right;
