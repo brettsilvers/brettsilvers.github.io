@@ -17,7 +17,7 @@ transform: scale(1, .8);
 
 p{	font-family: Work Sans, sans-serif;
 	color: #000;
-	font-size: 12pt;
+	font-size: 10pt;
 	line-height: 15pt;
 	font-weight: 300;
 margin-block-start: 0;
@@ -296,4 +296,5 @@ img.mySlides{
 @media screen and (max-width: 480px) {
 .pdp-main: text-align: center;
 }
+p{font-size:12pt;}
 }
