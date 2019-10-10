@@ -149,19 +149,22 @@ text-align: left;}
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
-  font-weight:400;
+  //font-size: 15px;
+  font-weight:500;
+		font-family: inherit;
+
 }
 
 
 .active, .drawerCollapsible:hover{background-color: white;}
 
 .drawerCollapsible:after {
-  //  cursor: cell!important;
+	font-family: inherit;
+    cursor: cell!important;
   content: '\002B';
   float: right;
   margin-left: 0px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
@@ -182,18 +185,7 @@ text-align: left;}
   font-size:12px;
 }
 
-.td-pdp-whats-included{
-text-align:center;
-  width:33.333%;
-}
 
-#td-pdp-whats-included-img{vertical-align:middle}
-#td-pdp-whats-included-label{vertical-align:top}
-
-  .pdp-setup-app-icon{padding-left:10px; padding-bottom:0px; padding-top:10px; vertical-align:middle;
-padding-right:0px;}
-  
-  .pdp-setup-td{padding: 10px; vertical-align:top}
 
 
 .td,
@@ -296,4 +288,3 @@ img.mySlides{
 
 //new pdp
 
-button{}
