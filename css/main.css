@@ -1,58 +1,3 @@
-body{    margin: 0px;
-}
-
-h1{	font-family: Arial, sans-serif;
-	color: #000;
-	font-size: 16pt;
-	line-height:18pt;
-	  letter-spacing: 2pt;
-	font-weight: 900;
-text-transform: uppercase;
-text-align:center;
-transform: scale(1, .8);
-  -webkit-transform: scale(1, .8); /* Safari and Chrome */
-  -moz-transform: scale(1, .8); /* Firefox */
-  -ms-transform: scale(1, .8); /* IE 9+ */
-  -o-transform: scale(1, .8); /* Opera */}
-
-p{	font-family: Work Sans, sans-serif;
-	color: #000;
-	font-size: 10pt;
-	line-height: 15pt;
-	font-weight: 300;
-margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-strong{	font-weight: 500;}
-
-.splash-image{
-position: fixed;
-  width: 25vw;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.footer-splash{
-	margin: 0 auto;
-	text-align: center;
-	top: 95%;
-	position:fixed;
-	width: 100%;
-	font-size:8pt!important;
-}
-
-@media screen and (max-width: 720px) {
-.splash-image{
-position: fixed;
-  width: 50vw;
-	}
-	.flex-container {
-	max-width:600px;
-	}
-}
-
 .flex-container {
 	max-width:700px;
   display: flex;
@@ -284,16 +229,7 @@ img.mySlides{
 }
 
 
-//new pdp
-
-@media screen and (max-width: 480px) {
-.pdp-main{ text-align: center;
-}
-//p{font-size:12pt;}
-}
-
-
-//old css
+//old
 
 nav{
 	position:fixed;
@@ -344,7 +280,6 @@ a{
 }
 
 .Navigat{
-	//position:fixed;
 	margin-left: 5px;
 	vertical align: text-bottom;
 }
@@ -367,11 +302,11 @@ body{margin: 0;}
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 75px;
-	//font-family: Work Sans;
-	//color: #000;
-	//text-align: center;
-	//font-size: 12pt;
-	//font-weight: 300;
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 12pt;
+	font-weight: 300;
 }
 
 div.scrollmenu {
@@ -386,12 +321,12 @@ div.scrollmenu {
 	margin-top: 0;
 }
 
-//container {
-//	height: 600px;
-//	padding: 0;
-//	margin: 0;
-//	white-space: nowrap;
-//}
+container {
+	height: 600px;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
 
 img.slideImg, .slideshowBW, .scrollmenu{
 	height: 600px !important;
@@ -428,7 +363,15 @@ td, th {
 
 }
 
-
+h1{
+	font-family: Work Sans;
+	color: #000;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
 
 .clientLogo{max-width: 75%;}
 
@@ -461,6 +404,7 @@ td, th {
 		margin-bottom: 25px;
 		margin-top: 5px;
 	}
+	#gearbox{margin-top: 25px !important;}
 	
 	.textPage{margin-top: 60px !important;}
 	
@@ -488,7 +432,19 @@ td, th {
 }
 
 
+#gearbox {
+	display: block;
+	justify-content: space-between;
+	overflow: hidden;
+}
 
+#leftgear, #rightgear, #thirdgear {
+	max-width: 100%;
+	margin: 0 auto 0;
+	width: auto;
+	height: auto;
+	z-index: 10;
+}
 
 .footer{
 	//margin-bottom: 50px;
@@ -575,4 +531,3 @@ body {
    background:#6cf;
 }
 
-navbar navbar-inverse navbar-toggleable-md fixed-top{position:fixed;}
