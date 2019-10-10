@@ -22,15 +22,14 @@ p{	font-family: Work Sans, sans-serif;
 	font-weight: 300;}
 
 strong{	font-weight: 500;}
-}
 
-.splash-image,
-#splash-image{
+.splash-image{
 position: fixed;
   width: 25vw;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -50%);
+}
 
 .footer{
 	margin: 0 auto;
@@ -41,8 +40,7 @@ position: fixed;
 }
 
 @media screen and (max-width: 720px) {
-.splash-image,
-	#splash-image{
+.splash-image{
 position: fixed;
   width: 50vw;
 	}
