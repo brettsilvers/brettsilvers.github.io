@@ -44,6 +44,9 @@ position: fixed;
 position: fixed;
   width: 50vw;
 	}
+	.flex-container {
+	max-width:600px;
+	}
 }
 
 .flex-container {
