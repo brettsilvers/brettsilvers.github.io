@@ -75,8 +75,10 @@ a.nav-link-active:hover{color: #000;}
 .Navigat{
 	margin-left: 20px;
 	margin-top: 20px;
-	vertical align: text-bottom;
-	position:sticky;
+	//vertical align: text-bottom;
+
+		vertical align: middle;
+position:sticky;
 }
 
 navbar-brand{
