@@ -285,9 +285,9 @@ nav{
 
 .nav-link,
 .nav-link-active{
-	font-family: Work Sans;
+	font-family: inherit;
 	text-decoration: none;
-	font-size: 12pt;
+	font-size: inherit;
 	padding-left: 5px;
   	padding-right: 5px;
 	font-weight: 300;
@@ -422,7 +422,6 @@ td, th {
 		margin-bottom: 25px;
 		margin-top: 5px;
 	}
-	#gearbox{margin-top: 25px !important;}
 	
 	.textPage{margin-top: 60px !important;}
 	
@@ -450,43 +449,21 @@ td, th {
 }
 
 
-#gearbox {
-	display: block;
-	justify-content: space-between;
-	overflow: hidden;
-}
 
-#leftgear, #rightgear, #thirdgear {
-	max-width: 100%;
-	margin: 0 auto 0;
-	width: auto;
-	height: auto;
-	z-index: 10;
-}
 
 .footer{
 	//margin-bottom: 50px;
 	text-align: center;
-	font-family: Work Sans;
+	font-family: inherit;
 	color: #000;
 	text-align: center;
-	font-size: 10pt;
-	font-weight: 300;
+	font-size: inherit;
+	font-weight: inherit;
 	bottom: 10%;
 }
 
 
-.footerShort{
-	position: fixed;
-	bottom: 0;
-margin: 10;
-	text-align: center;
-	font-family: Work Sans;
-	color: #000;
-	text-align: center;
-	font-size: 10pt;
-	font-weight: 300;
-}
+
 
 .aboutPic {
 margin: 0 auto; 
@@ -518,36 +495,5 @@ position:absolute;}
 .noHover:hover .yesHover{
 	opacity: 1;
 }
-
-
-
-//new
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-
-#site-container {
-   min-height:100%;
-   position:relative;
-}
-#site-header {
-   background:#ff0;
-   padding:10px;
-}
-#site-body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-#site-footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
-}
-
 
 
