@@ -385,9 +385,7 @@ table, td, tr{  border-collapse: collapse;}
 
 body{margin: 0;}
 
-.textPage{
-		text-align: center;
-}
+.textPage{text-align: center;}
 
 div.scrollmenu {
 	background-color: #fff;
