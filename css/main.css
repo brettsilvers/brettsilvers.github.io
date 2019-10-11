@@ -309,6 +309,7 @@ a{
 .Navigat{
 	margin-left: 5px;
 	vertical align: text-bottom;
+	position:fixed;
 }
 
 navbar-brand{
