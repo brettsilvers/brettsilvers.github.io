@@ -404,7 +404,7 @@ td, th {
 		margin-top: 100px !important;
 	}
 	.footer{
-		margin-bottom: 50px;
+		//margin-bottom: 50px;
 	}
 }
 
@@ -419,8 +419,8 @@ td, th {
 		width: 100% important;
 	}
 	.footer{
-		margin-bottom: 25px;
-		margin-top: 5px;
+		//margin-bottom: 25px;
+		//margin-top: 5px;
 	}
 	
 	.textPage{margin-top: 60px !important;}
@@ -459,7 +459,7 @@ td, th {
 	text-align: center;
 	font-size: inherit;
 	font-weight: inherit;
-	bottom: 10%;
+	bottom: 5%;
 }
 
 
