@@ -101,7 +101,8 @@ navbar{
 	 
 	 start-abt*/
 
-.aboutPic {margin: 0 auto;}
+.aboutPic {margin: 0 auto;
+max-width: 720px;}
 
 /*end-abt
 
