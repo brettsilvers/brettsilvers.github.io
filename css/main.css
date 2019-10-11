@@ -469,7 +469,7 @@ start-breakpoints*/
 
  @media only screen and (max-width: 768px) {
     .flex-container-pdp{  flex-direction: column;
-      width:80%;
+      width:80%; }
 }
 
 @media screen and (max-width: 480px) {
@@ -477,18 +477,10 @@ img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 }
 
 @media screen and (min-width: 481px) {
-	.aboutPic{
-		width: 66.666%;
-	}
-	table{
-		//max-width: 66.666% !important;
-	}
-	.textPage{
-		margin-top: 100px !important;
-	}
-	.footer{
-		//margin-bottom: 50px;
-	}
+	.aboutPic{width: 66.666%;}
+	//table{max-width: 66.666% !important;}
+	.textPage{margin-top: 100px !important;}
+	//.footer{margin-bottom: 50px;}
 }
 
 @media screen and (max-width: 480px) {
@@ -514,8 +506,8 @@ img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 	
 	.nav-link, .nav-link-active{
 		padding-left: 2.5px;
-		padding-right: 2.5px;
-	}
+		padding-right: 2.5px;}
+	
 	.logo1{width: 120px !important;}
 	.logo2{width: 117.5px !important;}
 	.logo3{width: 115px !important;}
@@ -527,7 +519,6 @@ img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 	.logo9{width: 100px !important;}
 	
 	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
-	
 	img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
 }
 
