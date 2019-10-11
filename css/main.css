@@ -167,7 +167,7 @@ start-pdp*/
   background:white;
   display: flex;
   justify-content: center;
-    margin-top:100px!important;
+  //  margin-top:100px!important;
   width:60%;
 	margin:0 auto;
  // pointer-events: auto;
