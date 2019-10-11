@@ -356,9 +356,7 @@ img.mySlides{
 
 
 
-.td,
-td{border:0px solid black !important;
-}
+//.td,td{border:0px solid black !important;}
 
 
 table, td, tr{  border-collapse: collapse;}
@@ -366,11 +364,7 @@ table, td, tr{  border-collapse: collapse;}
 	 
 
 
-#slider{
-  margin:0!important;
-  padding:0!important;
-border-collapse: collapse;
-border: 0px solid white;}
+#slider{margin:0!important;padding:0!important;border-collapse: collapse;border: 0px solid white;}
 
 
 
@@ -415,10 +409,7 @@ border: 0px solid white;}
 
 
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
+//img {vertical-align: middle;border-style: none;}
 
 
 .w3-section {
@@ -492,28 +483,27 @@ container {
 	white-space: nowrap;
 }
 
-table {
-	border-collapse: collapse;
-	//width: 100%;
-	margin: 0 auto 0;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	vertical align: middle;
-	    font-weight: 300;
-}
+//table {
+	//border-collapse: collapse;
+	////width: 100%;
+//	margin: 0 auto 0;
+//	margin-top: 5%;
+//	margin-bottom: 5%;
+//	vertical align: middle;
+//	    font-weight: 300;
+//}
 
-td, th {
-	border: 0px solid #dddddd;
-	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-	padding-right: 0px;
-	width: 33.333%;
-	vertical align: middle;
-	    font-weight: 300;
-
-}
+//td, th {
+//	border: 0px solid #dddddd;
+//	text-align: center;
+//	padding-top: 0px;
+//	padding-bottom: 5px;
+//	padding-left: 0px;
+//	padding-right: 0px;
+//	width: 33.333%;
+//	vertical align: middle;
+//	    font-weight: 300;
+//}
 
 
 
