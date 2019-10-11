@@ -310,7 +310,7 @@ a{
 	margin-left: 10px;
 	margin-top: 5px;
 	vertical align: text-bottom;
-	position:fixed;
+	position:sticky;
 }
 
 navbar-brand{
