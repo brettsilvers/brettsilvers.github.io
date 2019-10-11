@@ -1,4 +1,4 @@
-//start txt
+//start-txt
 
 h1{	font-family: Arial, sans-serif;
 	color: #000;
@@ -30,7 +30,7 @@ a{
 	text-decoration: none;
 }
 
-//end txt
+//end-txt
 
 //breakpoints
 
@@ -100,11 +100,11 @@ img.slideImg, .slideshowBW, .scrollmenu, container{
 	img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
 }
 
-//end breakpoints
+//end-breakpoints
 
 
 
-//startnav
+//start-nav
 
 nav{
 	position:fixed;
@@ -163,7 +163,7 @@ navbar{
 	display: inline;
 }
 
-//end nav
+//end-nav
 
 
 	 
@@ -173,10 +173,10 @@ navbar{
 
 .aboutPic {margin: 0 auto;}
 
-//end abt
+//end-abt
 
 
-//start art
+//start-art
 
 
 
@@ -187,13 +187,13 @@ img.slideImg, .slideshowBW, .scrollmenu{
 	margin: 0;
 }
 
-//end art
+//end-art
 
-//start client
+//start-client
 
 .clientLogo{max-width: 75%;}
 
-//end client
+//end-client
 	 
 	 //start shop
 .flex-container {
@@ -228,9 +228,9 @@ background-size: cover;
    
 }
 
-//end shop
+//end-shop
 	 
-//start pdp
+//start-pdp
 	  
 .flex-container-pdp {
   background:white;
@@ -328,13 +328,13 @@ img.mySlides{
    width:auto;
     display: block;
 }
-//end pdp
+//end-pdp
 
 
 
 
 
-//start footer
+//start-footer
 
 .footer{
 	//margin-bottom: 50px;
@@ -347,10 +347,10 @@ img.mySlides{
 	bottom: 5%;
 }
 
-//end footer
+//end-footer
 
 
-//start misc
+//start-misc
 .site-main{padding-top:50px;}
 
 
@@ -538,4 +538,4 @@ position:absolute;}
 	opacity: 1;
 }
 
-	 //end misc
+	 //end-misc
