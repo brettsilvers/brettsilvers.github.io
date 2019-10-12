@@ -61,11 +61,11 @@ nav{
 .nav-link-active{
 	font-family: Work Sans, sans-serif;
 	text-decoration: none;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding-left: 5px;
   	padding-right: 5px;
 	font-weight: 300;
-	vertical-align:middle;
+	//vertical-align:middle;
 }
 
 .nav-link{color: #000;}
@@ -86,12 +86,12 @@ a.nav-link-active:hover{color: black;}
 
 navbar-brand{
 	overflow: hidden;
-	vertical align: text-bottom;
+	//vertical align: text-bottom;
 }
 
 navbar{
 	overflow: hidden;
-	vertical align: text-bottom;
+	//vertical align: text-bottom;
 	width: auto;
 	display: inline;
 }
