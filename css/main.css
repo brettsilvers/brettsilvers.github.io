@@ -139,9 +139,14 @@ start-client*/
 
 .clientLogo{max-width: 200px;}
 
-.client-table{width:100%;}
+.client-table{
+	width:100%;
+	margin: 0 auto;
+}
 .client-tr{}
-.client-td{width:33.333%}
+.client-td{
+	width:33.333%;
+}
 
 /*end-client
 	 
