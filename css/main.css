@@ -145,7 +145,7 @@ start-client*/
 	max-width: 720px;
 	margin: 0 auto;
 }
-.client-tr{}
+.client-logo-tr{margin-top:25px;}
 .client-td{
 	padding: 5px;
 	width:33.333%;
