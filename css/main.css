@@ -1,9 +1,10 @@
 /*start-txt*/
 
 h1{
-	font-family: Arial, sans-serif;
-	color: #000;
+	font-family: 'Arial', sans-serif;
+	color: black;
 	font-size: 16pt;
+	font-style: normal;
 	line-height:18pt;
 	letter-spacing: 2pt;
 	font-weight: 900;
@@ -17,8 +18,10 @@ h1{
 }
 
 p{	
-	font-family: Work Sans, sans-serif;
-	color: #000;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+		font-style: normal;
+
 	font-size: 10pt;
 	line-height: 15pt;
 	font-weight: 300;
@@ -59,7 +62,8 @@ nav{
 
 .nav-link,
 .nav-link-active{
-	font-family: Work Sans, sans-serif;
+	font-family: 'Work Sans', sans-serif;
+		font-style: normal;
 	text-decoration: none;
 	font-size: 10pt;
 	padding-left: 5px;
@@ -68,7 +72,7 @@ nav{
 	//vertical-align:middle;
 }
 
-.nav-link{color: #000;}
+.nav-link{color: black;}
 
 a.nav-link:hover{color: pink;}
 
@@ -263,6 +267,8 @@ start-pdp*/
 	font-weight:500;
 	font-family: inherit;
 	font-size: inherit;
+		font-style: normal;
+
 }
 
 
@@ -270,6 +276,7 @@ start-pdp*/
 
 .drawerCollapsible:after {
 	font-family: inherit;
+		font-style: normal;
 	font-size:inherit;
 	cursor: cell!important;
 	content: '\002B';
@@ -310,6 +317,7 @@ start-footer*/
 
 .footer{
 	font-family: inherit;
+		font-style: normal;
 	color: black;
 	text-align: center;
 	font-size: inherit;
@@ -322,6 +330,7 @@ start-footer*/
 	position: fixed;
 	bottom: 25px;
 	font-family: inherit;
+		font-style: normal;
 	color: black;
 	text-align: center;
 	font-size: inherit;
