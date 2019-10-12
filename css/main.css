@@ -163,6 +163,12 @@ background-size: cover;
 /*end-shop
 	 
 start-pdp*/
+
+.pdp-table{margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px; margin-top:7.5px!important;}
+
+.pdp-tr{margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px;}
+
+.pdp-td{width:20%; vertical-align:middle; margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse;padding:0px;}
 	  
 .flex-container-pdp {
   background:white;
@@ -197,11 +203,6 @@ text-align: left;}
       // margin-top:25px!important;
 }
 	 
-.container{
-  margin-top:20%;
-  width:60%;
-//text-align:center;
-  margin:0 auto;}
 
 .drawerCollapsible {
   cursor: cell!important;
@@ -287,6 +288,11 @@ start-misc*/
 }
 
 
+.container{
+  margin-top:20%;
+  width:60%;
+//text-align:center;
+  margin:0 auto;}
 
 
 //.td,td{border:0px solid black !important;}
