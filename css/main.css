@@ -95,7 +95,25 @@ navbar{
 
 /*end-nav
 
+start-index*/
+.splash-image{
+position: fixed;
+  width: 25vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+@media screen and (max-width: 720px) {
+.splash-image{
+position: fixed;
+  width: 50vw;
+	}
+	.flex-container {
+	max-width:600px;
+	}
+}
+/*end-index
 	 
 
 	 
