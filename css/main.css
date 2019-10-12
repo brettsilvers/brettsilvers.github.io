@@ -147,6 +147,7 @@ start-client*/
 }
 .client-tr{}
 .client-td{
+	padding: 5px;
 	width:33.333%;
 }
 
