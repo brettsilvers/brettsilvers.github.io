@@ -164,7 +164,8 @@ background-size: cover;
 	 
 start-pdp*/
 
-.pdp-table{margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px; margin-top:7.5px!important;}
+.pdp-table{margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px; margin-top:7.5px!important; 	max-width:267px;
+}
 
 .pdp-tr{margin:0px; border:0px solid white; border-spacing: 0px;  border-collapse: collapse; padding:0px;}
 
@@ -257,7 +258,8 @@ text-align: left;}
 .mySlides,
 img.mySlides{
   margin: 0 auto;
-  max-height:400px;
+ // max-height:400px;
+	max-width:267px;
    width:auto;
     display: block;
 }
