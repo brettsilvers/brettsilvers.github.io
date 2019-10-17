@@ -352,8 +352,9 @@ start-misc*/
 
 .site-main{
 	padding-top:100px;
-	padding-bottom:75px;
+	//padding-bottom:75px;
 	margin: 0 auto;
+		margin-bottom:75px;
 }
 
 .container{
