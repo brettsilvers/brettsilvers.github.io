@@ -144,6 +144,8 @@ start-client*/
 	margin:0 auto;
 margin-bottom:25px;
 //height: 150px;
+	  flex: 1 0 33%; /* explanation below */
+
 }
 
 .clientLogo{max-height: 100px;}
