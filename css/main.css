@@ -173,7 +173,7 @@ start shop*/
 	margin: 0 auto;
 }
 
-.flex-container > div {
+.flex-shop {
 	width: 200px;
 	margin: 10px;
 	text-align: center;
