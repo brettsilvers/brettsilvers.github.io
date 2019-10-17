@@ -142,9 +142,11 @@ start-client*/
 
 .client-flex{text-align:center;}
 
-.clientLogo{max-height: 50px;}
+.clientLogo{max-height: 100px;}
 
-.client-table{
+.clientLogo-wide{max-width: 100px;}
+
+/*.client-table{
 	float:center;
 	width:100%;
 	max-width: 720px;
@@ -154,7 +156,7 @@ start-client*/
 .client-td{
 	padding: 5px;
 	width:33.333%;
-}
+}*/
 
 /*end-client
 	 
