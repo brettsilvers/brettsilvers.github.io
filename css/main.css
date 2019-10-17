@@ -140,11 +140,12 @@ img.slideImg, .slideshowBW, .scrollmenu{
 
 start-client*/
 
-.client-flex{text-align:center;}
+.client-flex{text-align:center;
+	margin:0 auto;}
 
 .clientLogo{max-height: 100px;}
 
-.clientLogo-wide{max-width: 100px;}
+.clientLogo-wide{max-width: 150px;}
 
 /*.client-table{
 	float:center;
