@@ -141,10 +141,10 @@ img.slideImg, .slideshowBW, .scrollmenu{
 start-client*/
 
 .client-flex{text-align:center;
-	margin:0 auto;
+	margin:0;
 margin-bottom:25px;
 //height: 150px;
-	  flex: 1 0 33%; /* explanation below */
+	  flex: 1 0 33%; 
 
 }
 
