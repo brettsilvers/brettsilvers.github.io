@@ -47,7 +47,9 @@ nav{
 }
 
 
-#Logo{transition: all 0.3s;}
+#Logo{transition: all 0.3s;
+//margin-right:5px;
+}
 
 .logo1{width: 160px;}
 .logo2{width: 155px;}
