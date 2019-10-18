@@ -88,6 +88,7 @@ a.nav-link-active:hover{color: black;}
 .navbar-brand{
 	overflow: hidden;
 	//vertical align: middle;
+	margin-right:5px;
 }
 
 navbar{
