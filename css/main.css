@@ -147,9 +147,11 @@ margin-bottom:25px;
 
 }
 
-.clientLogo{max-height: 100px;}
+.clientLogo{max-height: 100px;
+width: auto;}
 
-.clientLogo-wide{max-width: 150px;}
+.clientLogo-wide{max-width: 150px;
+height:auto;}
 
 /*.client-table{
 	float:center;
