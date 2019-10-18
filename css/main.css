@@ -82,14 +82,12 @@ a.nav-link-active:hover{color: black;}
 .Navigat{
 	margin-left: 20px;
 	margin-top: 20px;
-	//vertical align: text-bottom;
-	//vertical align: middle;
 	position:sticky;
 }
 
-.navbar-brand, navbar-brand, a.navbar-brand, #navbar-brand{
+.navbar-brand{
 	overflow: hidden;
-	vertical align: middle;
+	//vertical align: middle;
 }
 
 navbar{
