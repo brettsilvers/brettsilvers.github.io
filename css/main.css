@@ -228,10 +228,12 @@ start shop*/
 	 
 start-pdp*/
 
-.buy-button{text-transform:uppercase;
-color:white;}
+.buy-button{}
 
-.buy-button-table{}
+.buy-button-table{margin-top:25px;
+margin-bottom:25px;
+text-transform:uppercase;
+color:white;}
 
 .pdp-table{
 	margin:0px;
@@ -364,6 +366,7 @@ img.mySlides{
 	width:auto;
 	display: block;
 }
+//.pdp-main,.pdp-description,.pdp-buy{margin-bottom:25px;}
 
 /*end-pdp
 
@@ -417,7 +420,6 @@ table, td, tr{border-collapse: collapse;}
 
 //h1,.h1{margin:0 auto;line-height:1;}
 
-.pdp-main,.pdp-description,.pdp-buy{margin-bottom:25px;}
 
 body{margin: 0;}
 
