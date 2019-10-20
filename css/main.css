@@ -243,8 +243,8 @@ color:white;}
 	border-spacing: 0px;
 	border-collapse: collapse;
 	padding:0px;
-	margin-top:7.5px!important;
-	max-width:267px;
+	margin-top:10px!important;
+	//max-width:267px;
 }
 
 .pdp-tr{
