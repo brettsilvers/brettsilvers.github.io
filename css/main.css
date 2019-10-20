@@ -268,12 +268,15 @@ start-pdp*/
 .pdp-pic{
 	width:60%;
 	float:left;
+		padding-left:25px;
+	padding-right:25px;
 }
 
 .pdp-text{
-	padding-left:2.5%;
-	padding-right:2.5%;
-	width:calc(40% - 5%); 
+	padding-left:25px;
+	padding-right:25px;
+	//width:calc(40% - 5%); 
+	width:40%;
 	float:right;
 	padding-top:50px;
 	text-align: left;
