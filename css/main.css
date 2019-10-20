@@ -26,6 +26,7 @@ p, #pdp-drawer-txt{
 	font-weight: 300;
 	margin-block-start: 0;
 	margin-block-end: 0;
+	vertical-align:middle;
 }
 
 
@@ -303,7 +304,8 @@ color:white;}
 max-width:56px;}
 
 .drawerCollapsible {
-	
+		vertical-align:middle;
+
 	padding:0;
 	padding-top:15px; 
 	border-top:1px solid black;
@@ -340,6 +342,8 @@ max-width:56px;}
 	float: right;
 	margin-left: 0px;
 	font-weight: 300;
+		vertical-align:middle;
+
 }
 
 .active:after{
