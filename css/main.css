@@ -111,7 +111,7 @@ start-index*/
 }
 
 
-#pdp-video {
+#pdp-video, .pdp-video {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -122,6 +122,7 @@ start-index*/
   z-index:-1;
   pointer-events: auto!important;
 	overflow:hidden;
+	object-fit:cover;
 }
 
 .splash-image{
