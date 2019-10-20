@@ -287,6 +287,9 @@ start-pdp*/
 
 .pdp-pic{width:100%!important;}
 
+.pdp-thumbnail{width:100%;
+max-width:56px;}
+
 .drawerCollapsible {
 	cursor: cell!important;
 	border-top: 2px solid black;
@@ -341,7 +344,7 @@ start-pdp*/
 img.mySlides{
 	margin: 0 auto;
 	//max-height:400px;
-	max-width:267px;
+	max-width:300px;
 	width:auto;
 	display: block;
 }
