@@ -238,11 +238,12 @@ start-pdp*/
 }
 
 .pdp-tr{
-	margin:0px;
+	margin:0 auto;
 	border:0px solid white;
 	border-spacing: 0px;
 	border-collapse: collapse;
 	padding:0px;
+	text-align:center;
 }
 
 .pdp-td{
