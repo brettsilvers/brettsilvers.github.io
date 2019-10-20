@@ -266,7 +266,7 @@ start-pdp*/
 }
 
 .pdp-pic{
-	width:60%;
+	width:55%;
 	float:left;
 		padding-left:25px;
 	padding-right:25px;
@@ -276,7 +276,7 @@ start-pdp*/
 	padding-left:25px;
 	padding-right:25px;
 	//width:calc(40% - 5%); 
-	width:40%;
+	width:45%;
 	float:right;
 	padding-top:50px;
 	text-align: left;
@@ -345,7 +345,7 @@ max-width:56px;}
 
 .mySlides,
 img.mySlides{
-	margin: 0 auto;
+	margin: 0;
 	//max-height:400px;
 	max-width:300px;
 	width:auto;
