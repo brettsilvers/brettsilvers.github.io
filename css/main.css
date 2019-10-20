@@ -165,8 +165,9 @@ start-client*/
 .client-flex{text-align:center;
 	margin:0;
 margin-bottom:25px;
-//height: 150px;
-	  flex: 1 0 33%; 
+height: 175px;
+	width:150px;
+	//  flex: 1 0 33%; 
 
 }
 
