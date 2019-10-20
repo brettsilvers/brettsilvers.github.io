@@ -228,6 +228,8 @@ start shop*/
 	 
 start-pdp*/
 
+.buy-button{text-transform:uppercase;}
+
 .pdp-table{
 	margin:0px;
 	border:0px solid white;
