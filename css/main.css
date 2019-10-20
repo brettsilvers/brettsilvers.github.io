@@ -266,7 +266,6 @@ start-pdp*/
 	position:relative;
 	border:0px solid #fff;
   vertical-align:middle;
-
 	@include transition(all 0.5s ease);
 }
 
@@ -274,7 +273,7 @@ start-pdp*/
 .five {
 	overflow:hidden;
 	color:#fff;
-
+}
 	.buyButtonlayer {
 		color:#fff;
 		position:absolute;
@@ -285,11 +284,11 @@ start-pdp*/
 		@include transition(all 0.3s ease);
 	}
 
-	&:hover {
+	.five:hover {
 		.buyButtonlayer {
 			top:0;
 		}
-	}
+	
 }
 /* button above */
 
