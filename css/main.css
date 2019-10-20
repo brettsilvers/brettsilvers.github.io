@@ -17,7 +17,7 @@ h1{
 	-o-transform: scale(1, .8); /* Opera */
 }
 
-p{	
+p, #pdp-drawer-txt{	
 	font-family: "Work Sans", "Arial", sans-serif;
 	color: black;
 	font-style: normal;
