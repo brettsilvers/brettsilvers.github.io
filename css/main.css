@@ -294,8 +294,13 @@ start-pdp*/
 max-width:56px;}
 
 .drawerCollapsible {
+	
+	padding:0;
+	padding-top:15px; 
+	border-top:1px solid black;
+	
 	cursor: cell!important;
-	border-top: 2px solid black;
+	//border-top: 2px solid black;
 	background-color: white;
 	color: black;
 	//cursor: pointer;
