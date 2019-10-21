@@ -187,10 +187,11 @@ height:auto;}
 	max-width: 720px;
 	margin: 0 auto;
 }
-.client-logo-tr{}
+.client-logo-tr{margin-bottom:10px;}
 .client-td{
-	padding: 5px;
+	//padding: 5px;
 	width:33.333%;
+	text-align:center;
 }
 
 .client-tr{margin-bottom:25px;}
