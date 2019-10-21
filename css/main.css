@@ -234,6 +234,44 @@ start shop*/
 	 
 start-pdp*/
 
+.buy-container {
+  position: relative;
+  width: 100%;
+  background-color:#d8262f;
+  height:50px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.buy-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.buy-container:hover .buy-overlay {
+  width: 100%;
+  left: 0;
+}
+
+.pdp-button-new {
+ // color: white;
+//  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
 .buy-button{}
 
 .buy-button-table{margin-top:25px;
