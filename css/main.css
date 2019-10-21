@@ -181,17 +181,19 @@ width: auto;}
 .clientLogo-wide{max-width: 150px;
 height:auto;}
 
-/*.client-table{
+.client-table{
 	float:center;
 	width:100%;
 	max-width: 720px;
 	margin: 0 auto;
 }
-.client-logo-tr{margin-top:25px;}
+.client-logo-tr{}
 .client-td{
 	padding: 5px;
 	width:33.333%;
-}*/
+}
+
+.client-tr{margin-bottom:25px;}
 
 /*end-client
 	 
