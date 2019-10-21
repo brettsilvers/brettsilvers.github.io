@@ -532,7 +532,7 @@ start-breakpoints*/
 		img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 	.aboutPic{width: 100%;}
 	table{//max-width: 100% !important;}
-	.aboutPic{width: 100% important;}
+	.aboutPic{width: 100% !important;}
 	.footer{
 		//margin-bottom: 25px;
 		//margin-top: 5px;
