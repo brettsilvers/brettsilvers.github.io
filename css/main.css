@@ -235,6 +235,7 @@ start shop*/
 start-pdp*/
 
 .buy-container {
+	border:1px #d8262f solid;
   position: relative;
   width: 100%;
   background-color:#d8262f;
