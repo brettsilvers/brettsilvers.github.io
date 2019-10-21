@@ -517,9 +517,7 @@ start-breakpoints*/
 	.flex-container-pdp{
 		flex-direction: column;
 		width:80%; }
-	 .pdp-pic, .pdp-text{width:80%;
-	 padding:0;}
-	 .flex-container-pdp{width:80%;}
+	// .pdp-pic, .pdp-text{width:80%;padding:0;}
 }
 
 
