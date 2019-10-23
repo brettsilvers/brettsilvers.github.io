@@ -176,10 +176,12 @@ height: 175px;
 }
 
 .clientLogo{max-height: 100px;
-width: auto;}
+width: auto;
+height:auto;}
 
 .clientLogo-wide{max-width: 150px;
-height:auto;}
+height:auto;
+width:auto;}
 
 .client-table{
 	float:center;
