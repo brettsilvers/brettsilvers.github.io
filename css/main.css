@@ -218,6 +218,7 @@ start shop*/
 }
 
 
+
 .card {
         width: 200px;
         height: 300px;
@@ -322,14 +323,14 @@ color:white;}
 	//pointer-events: auto;
 }
 
-.pdp-pic{
+/*.pdp-pic{
 	width:55%;
 	float:left;
 		padding-left:25px;
 	padding-right:25px;
 }
 
-/*.pdp-text{
+.pdp-text{
 	padding-left:25px;
 	padding-right:25px;
 	//width:calc(40% - 5%); 
@@ -342,6 +343,12 @@ color:white;}
 	//padding-top:25px;
 	//margin-top:25px!important;
 }*/
+
+.pdp-pic{
+	max-width:300px;
+	float:left;
+	text-align: left;
+}
 
 .pdp-text{
 	max-width:300px;
