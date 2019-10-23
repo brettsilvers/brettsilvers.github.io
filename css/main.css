@@ -176,11 +176,11 @@ height: 175px;
 }
 
 .clientLogo{max-height: 100px;
-width: auto;
+//width: auto;
 height:100%;}
 
 .clientLogo-wide{max-width: 150px;
-height:auto;
+//height:auto;
 width:100%;}
 
 .client-table{
