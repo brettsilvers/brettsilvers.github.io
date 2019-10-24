@@ -171,22 +171,16 @@ img.slideImg, .slideshowBW, .scrollmenu{
 /*end-art
 
 start-client*/
-/*
-.client-flex{text-align:center;
-	margin:0;
-margin-bottom:25px;
-height: 175px;
-	width:150px;
-
-}*/
 
 .clientLogo{
 	max-height: 100px;
-height:100%;}
+	height:100%;
+}
 
 .clientLogo-wide{
 	max-width: 150px;
-width:100%;}
+	width:100%;
+}
 
 .client-table{
 	float:center;
@@ -194,7 +188,7 @@ width:100%;}
 	max-width: 720px;
 	margin: 0 auto;
 }
-.client-logo-tr{margin-bottom:10px;}
+//.client-logo-tr{margin-bottom:10px;}
 
 .client-td{
 	width:33.333%;
@@ -202,7 +196,7 @@ width:100%;}
 	padding-bottom:50px;
 }
 
-.client-tr{margin-bottom:25px;}
+//.client-tr{margin-bottom:25px;}
 
 /*end-client
 	 
