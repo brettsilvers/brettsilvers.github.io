@@ -325,7 +325,7 @@ pdp-button-new{padding-top:calc(25/2);}
 }
 
 
-.pdp-thumbnail{max-width:56px;}
+.pdp-thumbnail{max-width:calc(280/5px);}
 
 .drawerCollapsible {
 	vertical-align:middle;
@@ -494,7 +494,7 @@ start-breakpoints*/
 	max-width: 200px;
 	}
 	
-	.pdp-thumbnail{max-width: calc(56*[2/3]);}
+	.pdp-thumbnail{max-width: calc(180/5px);}
 	
 	.flex-shop{margin-bottom:25px;}
 
