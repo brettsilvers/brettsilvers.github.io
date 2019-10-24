@@ -547,6 +547,7 @@ start-breakpoints*/
 }
 
 @media screen and (max-width: 480px) {
+	.pdp-text{padding-top:25px;}
 		img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 	.aboutPic{width: 100%;}
 	table{//max-width: 100% !important;}
