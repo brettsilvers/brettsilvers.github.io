@@ -371,7 +371,6 @@ start-pdp*/
 	float: right;
 	margin-left: 0px;
 	vertical-align:middle;
-	padding-bottom:0px;
 
 }
 
@@ -380,7 +379,10 @@ start-pdp*/
 	//font-weight:500;
 }
 
-.drawerCollapsible:active, .drawerCollapsible.active{font-weight: 300;}
+.drawerCollapsible:active, .drawerCollapsible.active{
+	font-weight: 300;
+	padding-bottom:0px;
+}
 
 .drawerContent {
 	max-height: 0;
