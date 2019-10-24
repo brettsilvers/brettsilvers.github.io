@@ -210,7 +210,7 @@ start shop*/
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	margin: 0 auto;
 }
 
