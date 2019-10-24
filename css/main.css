@@ -32,6 +32,8 @@ p, #pdp-drawer-txt{
 	vertical-align:middle;
 }
 
+#small{font-size:8pt;}
+
 #pdp-h1{
 	margin-block-start: 0;
 	margin-block-end: 0;
