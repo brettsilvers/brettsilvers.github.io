@@ -543,7 +543,13 @@ start-breakpoints*/
 
 
 @media screen and (max-width: 720px) {
-		.pdp-text{
+	.pdp-pic{
+	max-width: 200px;
+	}
+	
+	.pdp-thumbnail{max-width: 37.333px;}
+	
+	.pdp-text{
 		padding-top:25px;
 		padding-left:0px;
 	}
