@@ -176,7 +176,6 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
 
 <script>
 var coll = document.getElementsByClassName("drawerCollapsible");
-var coll2 = document.getElementsByClassName("drawerContent");
 
 	var i;
 	var i2;
@@ -196,8 +195,11 @@ for (i = 0; i < coll.length; i++) {
 </script>
 <script>
 	
+	var coll2 = document.getElementsByClassName("drawerContent");
+		var i2;
+
 	for (i2 = 0; i2 < coll2.length; i2++) {
-  coll[i].addEventListener("click", function() {
+  coll2[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
