@@ -154,7 +154,7 @@ start-abt*/
 
 .aboutPic {
 	margin: 0 auto;
-	max-width: 720px;
+	max-width: 100%;
 }
 
 /*end-abt
@@ -531,15 +531,16 @@ start-breakpoints*/
 */
 
 @media screen and (max-width: 350px) {
-	.nav-link{font-size:8pt;}
+	.nav-link, .nav-link:active{font-size:8pt;}
 }
 
 	
 @media screen and (max-width: 480px) {
+	.site-main{padding-top:50px;}
 	.flex-shop{margin-bottom:25px;}
 	.pdp-text{
 		padding-top:25px;
-	padding-left:0px;
+		padding-left:0px;
 	}
 	img.slideImg, .slideshowBW, .scrollmenu, container{height: 360px !important;}
 	.aboutPic{width: 100%;}
