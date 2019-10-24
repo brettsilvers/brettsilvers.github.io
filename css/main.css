@@ -272,7 +272,7 @@ start-pdp*/
   left: 0;
 }
 
-pdp-button-new{top:calc(25/2);}
+pdp-button-new{padding-top:calc(25/2);}
 
 .pdp-table{
 	width:100%;
