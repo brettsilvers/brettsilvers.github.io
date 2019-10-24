@@ -87,7 +87,6 @@ nav{
 
 a.nav-link:hover, a.nav-link-active{color: #d8262f;
 //color:#cc3333;
-	font-weight:400;
 }
 
 a.nav-link-active:hover{color: black;}
