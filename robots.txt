@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /shopBeta/
 
-Sitemap: http://www.brettsilvers.tk/sitemap.xml
+Sitemap: https://www.brettsilvers.tk/sitemap.xml
