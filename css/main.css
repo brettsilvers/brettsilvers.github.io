@@ -475,7 +475,10 @@ start-misc*/
 }
 
 
-table, td, tr{border-collapse: collapse;} 
+table, td, tr{
+	border-collapse: collapse;
+	border-spacing: 0px;
+} 
 
 #slider{margin:0!important;padding:0!important;border-collapse: collapse;border: 0px solid white;}
 
