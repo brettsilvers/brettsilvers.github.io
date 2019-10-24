@@ -373,7 +373,7 @@ pdp-button-new{padding-top:calc(25/2);}
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: white;
-	margin-bottom:25px;
+	padding-bottom:25px;
 	font-size:inherit;
 	cursor: cell!important;
 	text-align: left;
