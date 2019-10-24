@@ -89,18 +89,18 @@
 	  
 
 
-<button class="drawerCollapsible" style="">
+<button class="drawerCollapsible">
 	<span id="pdp-drawer-txt">Sizing Info</span></button>
 	  <div class="drawerContent"><br><p>&#10004; waist<br>
     &#10004; inseam<br>
   &#10004; fit</p></div>
     
-    <button class="drawerCollapsible" style="">
+    <button class="drawerCollapsible">
 	    <span id="pdp-drawer-txt">Product Details</span></button><div class="drawerContent"><br>
     <p>&#10004; 100% cotton<br>
   &#10004; <img src="https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/LargeUSFlag.gif" style="height:25px; vertical-align: middle;"> Made in USA</p></div>
 
-<button class="drawerCollapsible" style="">
+<button class="drawerCollapsible">
 	<span id="pdp-drawer-txt">Shipping and Returns</span></button>
 <div class="drawerContent">
   <br><p>
@@ -176,9 +176,24 @@ var scroll = window.pageYOffset || document.documentElement.scrollTop || documen
 
 <script>
 var coll = document.getElementsByClassName("drawerCollapsible");
-var i;
+var coll2 = document.getElementsByClassName("drawerContent");
+
+	var i;
+	var i2;
 
 for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+	
+	for (i2 = 0; i2 < coll2.length; i2++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
