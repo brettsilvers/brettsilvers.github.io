@@ -278,7 +278,9 @@ start-pdp*/
   left: 0;
 }
 
-pdp-button-new{padding-top:calc(25px/2);}
+pdp-button-new{
+	padding-top:calc(25px/2);
+	height:25px;}
 
 .pdp-table{
 	width:100%;
