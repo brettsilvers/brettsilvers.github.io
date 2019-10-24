@@ -281,9 +281,9 @@ start-pdp*/
   left: 0;
 }
 
-#pdp-button-new{
+/*#pdp-button-new{
 	top:calc(25px/2);
-	height:25px;}
+	height:25px;}*/
 
 .pdp-table{
 	width:100%;
