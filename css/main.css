@@ -532,23 +532,24 @@ start-breakpoints*/
 }
 
 	
-@media screen and (max-width: 480px) {
-	.site-main{padding-top:50px;}
-	.flex-shop{margin-bottom:25px;}
-
-	//.aboutPic{width: 100%;}
-	//nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
-	//img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
-}
-
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {	
 	.pdp-pic{
 	max-width: 200px;
 	}
 	
 	.pdp-thumbnail{max-width: 37.333px;}
 	
+	.flex-shop{margin-bottom:25px;}
+
+	//.aboutPic{width: 100%;}
+	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
+	//img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
+}
+
+
+@media screen and (max-width: 720px) {
+	.site-main{padding-top:75px;}
+
 	.pdp-text{
 		padding-top:25px;
 		padding-left:0px;
