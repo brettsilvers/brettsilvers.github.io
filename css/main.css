@@ -225,12 +225,15 @@ start shop*/
 	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/Rotating_earth_(large).png") no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-color: d8262f;
 }
 
 .card:hover {
         background: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif") no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-color: d8262f;
+
 }
 
 /*end-shop
