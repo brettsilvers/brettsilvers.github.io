@@ -144,7 +144,18 @@ start-index*/
 	 
 start-abt*/
 
-.aboutPic {margin: 0 auto; max-width: 720px;}
+.textPage{
+	text-align: center;
+	width: 80%;
+	max-width:720px;
+	margin: 0 auto;
+}
+
+
+.aboutPic {
+	margin: 0 auto;
+	max-width: 720px;
+}
 
 /*end-abt
 
@@ -383,7 +394,6 @@ color:white;}
 }
 
 
-//.active, .drawerCollapsible:hover{background-color: white;}
 
 .drawerCollapsible:after {
 	font-family: inherit;
@@ -476,7 +486,6 @@ table, td, tr{border-collapse: collapse;}
 
 body{margin: 0;}
 
-.textPage{text-align: center;}
 
 div.scrollmenu {
 	background-color: white;
@@ -516,10 +525,16 @@ div.scrollmenu {
 
 start-breakpoints*/
 
-@media screen and (min-width: 481px) {
+/*@media screen and (min-width: 481px) {
 	.aboutPic{width: 66.666%;}
 }
+*/
 
+@media screen and (max-width: 350px) {
+	.nav-link{font-size:8pt;}
+}
+
+	
 @media screen and (max-width: 480px) {
 	.flex-shop{margin-bottom:25px;}
 	.pdp-text{
