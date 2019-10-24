@@ -17,6 +17,10 @@ h1{
  	-moz-transform: scale(1, .8); /* Firefox */
 	-ms-transform: scale(1, .8); /* IE 9+ */
 	-o-transform: scale(1, .8); /* Opera */
+	margin-block-start: 25px;
+	margin-block-end: 25px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
 p, #pdp-drawer-txt{	
