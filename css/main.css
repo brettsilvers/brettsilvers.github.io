@@ -274,7 +274,7 @@ start-pdp*/
   left: 0;
 }
 
-pdp-button-new{padding-top:calc(25/2);}
+pdp-button-new{padding-top:calc(25px/2);}
 
 .pdp-table{
 	width:100%;
@@ -327,7 +327,7 @@ pdp-button-new{padding-top:calc(25/2);}
 }
 
 
-.pdp-thumbnail{max-width:calc(280/5px);}
+.pdp-thumbnail{max-width:calc(280px/5);}
 
 .drawerCollapsible {
 	vertical-align:middle;
@@ -496,7 +496,7 @@ start-breakpoints*/
 	max-width: 200px;
 	}
 	
-	.pdp-thumbnail{max-width: calc(180/5px);}
+	.pdp-thumbnail{max-width: calc(180px/5);}
 	
 	.flex-shop{margin-bottom:25px;}
 
