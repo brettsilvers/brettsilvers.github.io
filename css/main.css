@@ -36,7 +36,10 @@ p, #pdp-drawer-txt{
 	vertical-align:middle;
 }
 
-#small{font-size:8pt;}
+#small{
+	font-size:8pt;
+	line-height:12pt;
+}
 
 #pdp-h1{
 	margin-block-start: 0;
@@ -278,8 +281,8 @@ start-pdp*/
   left: 0;
 }
 
-pdp-button-new{
-	padding-top:calc(25px/2);
+#pdp-button-new{
+	top:calc(25px/2);
 	height:25px;}
 
 .pdp-table{
