@@ -193,8 +193,9 @@ start-client*/
 .client-td{
 	width:33.333%;
 	text-align:center;
-	padding-bottom:50px;
 }
+
+#client-txt{padding-bottom:50px;}
 
 //.client-tr{margin-bottom:25px;}
 
@@ -240,6 +241,8 @@ start shop*/
 /*end-shop
 	 
 start-pdp*/
+
+#pdp-color{font-weight:500;}
 
 .buy-container {
 	color:white;
