@@ -272,6 +272,8 @@ start-pdp*/
   left: 0;
 }
 
+pdp-button-new{top:calc(25/2);}
+
 .pdp-table{
 	width:100%;
 	margin:0px;
@@ -492,13 +494,11 @@ start-breakpoints*/
 	max-width: 200px;
 	}
 	
-	.pdp-thumbnail{max-width: 37.333px;}
+	.pdp-thumbnail{max-width: calc(56*[2/3]);}
 	
 	.flex-shop{margin-bottom:25px;}
 
-	//.aboutPic{width: 100%;}
 	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
-	//img.slideImg, .slideshowBW, .scrollmenu, container{height: 300px !important;}
 }
 
 
