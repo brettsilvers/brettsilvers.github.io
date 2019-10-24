@@ -525,6 +525,7 @@ start-breakpoints*/
 }
 
 @media screen and (max-width: 480px) {
+	.flex-shop{margin-bottom:25px;}
 	.pdp-text{
 		padding-top:25px;
 	padding-left:0px;
