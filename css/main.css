@@ -403,26 +403,22 @@ color:white;}
 	font-weight:500;
 }
 
-.drawerCollapsible:active,
-.drawerCollapsible.active{font-weight: 300;}
+.drawerCollapsible:active, .drawerCollapsible.active{font-weight: 300;}
 
 .drawerContent {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: white;
-	margin-bottom:15px;
+	margin-bottom:25px;
 	font-size:inherit;
 	cursor: cell!important;
+	text-align: left;
 
 }
 
-.mySlides,
-img.mySlides{
+.mySlides, img.mySlides{
 	margin: 0;
-	//max-height:400px;
-	//max-width:300px;
-	//width:auto;
 	width:100%;
 	display: block;
 }
