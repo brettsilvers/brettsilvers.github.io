@@ -110,8 +110,10 @@ a.nav-link-active:hover{color: black;}
 
 .navbar-brand{
 	overflow: hidden;
-	margin-right:5px;
-	vertical-align:middle;
+	margin-right:10px;
+
+	//	margin-right:5px;
+vertical-align:middle;
 }
 
 navbar{
@@ -517,6 +519,7 @@ start-breakpoints*/
 	.flex-shop{margin-bottom:25px;}
 
 	nav, .nav, nav.navbar.navbar-inverse.navbar-toggleable-md.fixed-top{margin: 0px !important;}
+	.navbar-brand{margin-right:5px;}
 }
 
 
