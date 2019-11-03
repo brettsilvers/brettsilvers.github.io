@@ -276,6 +276,18 @@ background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.git
 	background-position: center;
 }
 
+#client-cbna{ 
+	background: url("https://cdn.shopify.com/s/files/1/2792/8040/files/logo.svg?843") no-repeat;
+	background-size: contain;
+	background-position: center;}
+
+#client-cbna:hover{ 
+	background: url("https://cdn.shopify.com/s/files/1/2792/8040/files/logo.svg?843") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
 .card:hover {
         background: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif") no-repeat;
 	background-size: cover;
