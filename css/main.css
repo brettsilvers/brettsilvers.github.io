@@ -238,7 +238,6 @@ start shop*/
 .card {
         width: 200px;
         height: 300px;
-	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/Rotating_earth_(large).png") no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-color: #d8262f;
@@ -251,12 +250,17 @@ start shop*/
 	background-position: center;
 	background-color: #d8262f;}
 
+
 .client-card:hover {
-        background: url("https://cdn.shopify.com/s/files/1/0013/4712/5322/files/logo1_180x.jpg?v=1539065832") no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-color: #d8262f;
+}
 
+#client-tt{	background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.github.io/master/Rotating_earth_(large).png") no-repeat;
+}
+
+#client-tt:hover{        background: url("https://cdn.shopify.com/s/files/1/0013/4712/5322/files/logo1_180x.jpg?v=1539065832") no-repeat;
 }
 
 .card:hover {
