@@ -247,44 +247,48 @@ background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.git
 .client-card{ width: 200px;
         height: 200px;
 
-	background-color: #d8262f;}
+//	background-color: #d8262f;
+}
 
 
 .client-card:hover {
-
+//
 	background-color: #d8262f;
 }
+
 #client-tt{ 
 	background: url("https://cdn.shopify.com/s/files/1/0013/4712/5322/files/logo1_180x.jpg?v=1539065832") no-repeat;
-	background-size: contain;
+	background-size: auto 100px;
 	background-position: center;}
 
 #client-tt:hover{ 
-	background: url("https://cdn.shopify.com/s/files/1/0013/4712/5322/files/logo1_180x.jpg?v=1539065832") no-repeat;
-	background-size: cover;
-	background-position: center;
+//	background: url("https://cdn.shopify.com/s/files/1/0013/4712/5322/files/logo1_180x.jpg?v=1539065832") no-repeat;
+//	background-size: cover;
+//	background-position: center;
 }
 
 #client-op{ 
 	background: url("https://s3.amazonaws.com/files.collageplatform.com.prod/application/5a5d22de6aa72c306b8b4567/734581576638c5d37798de0512745fd4.png") no-repeat;
-	background-size: contain;
-	background-position: center;}
+	background-size: 150px auto;
+	background-position: center;
+}
 
 #client-op:hover{ 
-	background: url("https://s3.amazonaws.com/files.collageplatform.com.prod/application/5a5d22de6aa72c306b8b4567/734581576638c5d37798de0512745fd4.png") no-repeat;
-	background-size: cover;
-	background-position: center;
+//	background: url("https://s3.amazonaws.com/files.collageplatform.com.prod/application/5a5d22de6aa72c306b8b4567/734581576638c5d37798de0512745fd4.png") no-repeat;
+//	background-size: cover;
+//	background-position: center;
 }
 
 #client-cbna{ 
 	background: url("https://cdn.shopify.com/s/files/1/2792/8040/files/logo.svg?843") no-repeat;
-	background-size: contain;
-	background-position: center;}
+	background-size: 150px auto;
+	background-position: center;
+}
 
 #client-cbna:hover{ 
-	background: url("https://cdn.shopify.com/s/files/1/2792/8040/files/logo.svg?843") no-repeat;
-	background-size: cover;
-	background-position: center;
+//	background: url("https://cdn.shopify.com/s/files/1/2792/8040/files/logo.svg?843") no-repeat;
+//	background-size: cover;
+//	background-position: center;
 }
 
 
