@@ -244,8 +244,9 @@ background: url("https://raw.githubusercontent.com/brettsilvers/brettsilvers.git
 	background-color: #d8262f;
 }
 
-.client-card{ width: 200px;
-        height: 200px;
+.client-card{
+//	width: 200px;
+        height: 100px;
 
 //	background-color: #d8262f;
 }
