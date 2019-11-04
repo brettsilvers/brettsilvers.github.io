@@ -471,6 +471,7 @@ start-pdp*/
 start-footer*/
 
 .footer{
+	position:relative;
 	font-family: inherit;
 	font-style: normal;
 	color: black;
@@ -478,12 +479,14 @@ start-footer*/
 	font-size: inherit;
 	font-weight: inherit;
 	margin-bottom:25px;
+	bottom:0;
 }
 
 .footerShort{
 	width:100%;
 	position: fixed;
 	bottom: 25px;
+	margin-bottom:0;
 	font-family: inherit;
 	font-style: normal;
 	color: black;
