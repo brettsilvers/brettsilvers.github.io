@@ -220,10 +220,10 @@ start-client*/
 	 
 start shop*/
 
-.product-title-txt{font-weight:500;
+#product-title-txt{font-weight:500;
 }
 
-.product-title-txt:hover{color:#00964f}
+#product-title-txt:hover{color:#00964f}
 
 
 .flex-container {
