@@ -57,7 +57,7 @@ a{
 	text-decoration: none;
 }
 a:hover{	
-	font-weight:500;
+	font-weight:400;
 	color:#d8262f;
 }
 
@@ -219,7 +219,13 @@ start-client*/
 /*end-client
 	 
 start shop*/
-	 
+
+.product-title-txt{font-weight:500;
+}
+
+.product-title-txt:hover{color:#00964f}
+
+
 .flex-container {
 	max-width:700px;
 	display: flex;
