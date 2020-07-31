@@ -589,6 +589,8 @@ start-breakpoints*/
 @media screen and (max-width: 720px) {
 	.site-main{padding-top:75px;}
 
+	.footerShort{bottom:15px;}
+	
 	.pdp-text{
 		padding-top:25px;
 		padding-left:0px;
@@ -596,6 +598,7 @@ start-breakpoints*/
 	.splash-image{
 		position: fixed;
  		 width: 50vw;
+		top:45vh;
 	}
 	
 	.flex-container {
