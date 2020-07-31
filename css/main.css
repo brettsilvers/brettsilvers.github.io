@@ -401,6 +401,8 @@ start-pdp*/
 
 .pdp-thumbnail{max-width:calc(280px/5);}
 
+.drawerCollapsible:active{cursor:zoom-out!important;}
+
 .drawerCollapsible {
 	vertical-align:middle;
 	padding:0;
@@ -412,7 +414,7 @@ start-pdp*/
 	border-bottom:none;
 	border-left:none;
 	border-right:none;
-	cursor: cell!important;
+	cursor: zoom-in!important;
 	background-color: white;
 	width: 100%;
 	text-align: left;
